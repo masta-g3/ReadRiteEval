@@ -1,0 +1,588 @@
+rules,answer,validation
+"In this puzzle, use the symbols 👶 (Baby), 🍼 (Baby Bottle), 🧸 (Teddy Bear), 🎈 (Balloon), 🎁 (Gift), and 🎂 (Birthday Cake).
+1. 👶 cannot be directly before or after 🎁.
+2. 🍼 must always precede 🧸 but follow 👶.
+3. 🎈 must be immediately after 🧸.
+4. The sequence must start with 👶.
+5. 🎂 cannot be adjacent to either 👶 or 🍼.
+6. The sequence contains exactly one of each symbol.
+7. 🎁 must be the last in the sequence.","👶, 🍼, 🧸, 🎈, 🎂, 🎁","{'analysis': ""The proposed sequence starts with 👶, which complies with rule 4. The condition of rule 2 that 🍼 must follow 👶 is also satisfied. 🍼 also precedes 🧸 in the sequence, thus fully satisfying rule 2. 🎈 is immediately after 🧸, following rule 3. The sequence ends with 🎁, which satisfies rule 7. 👶 is not directly before or after 🎁, thus following rule 1. 🎂 is not adjacent to either 👶 or 🍼, thus it's compliant with rule 5. Lastly, the sequence contains exactly one of each symbol which is rule 6. Therefore the proposed sequence complies with all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 🥷🏼 (Ninja), 🐉 (Dragon), ⚔️ (Crossed Swords), 🏯 (Japanese Castle), 🌸 (Cherry Blossom), and 🍱 (Bento Box).
+1. 🥷🏼 cannot be directly before or after 🐉.
+2. 🏯 must always precede ⚔️ but follow 🌸.
+3. 🍱 must be immediately after ⚔️.
+4. The sequence must start with 🌸.
+5. 🐉 cannot be adjacent to either 🌸 or 🏯.
+6. The sequence contains exactly one of each symbol.
+7. 🥷🏼 must be the last in the sequence.","🌸, 🏯, ⚔️, 🍱, 🐉, 🥷🏼","{'analysis': 'Analyzing the proposed sequence 🌸, 🏯, ⚔️, 🍱, 🐉, 🥷🏼 . Rule 1: 🥷🏼 is not before or after 🐉. Rule 2: 🏯 precedes ⚔️ and follows 🌸. Rule 3: 🍱 is immediately after ⚔️. Rule 4: The sequence starts with 🌸, which is correct. Rule 5: 🐉 is not adjacent to either 🌸 or 🏯. Rule 6: The sequence contains exactly one of each symbol. Rule 7: 🥷🏼 is at the end of the sequence. Since all the rules have been followed, the proposed sequence is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🐍 (Snake), 🐸 (Frog), 🦅 (Eagle), 🐢 (Turtle), 🐊 (Crocodile), and 🐝 (Bee).
+1. 🐍 cannot be directly before or after 🐸.
+2. 🦅 must always precede 🐢 but follow 🐊.
+3. 🐸 must be immediately after 🐢.
+4. The sequence must start with 🐊.
+5. 🐝 cannot be adjacent to either 🐊 or 🦅.
+6. The sequence contains exactly one of each symbol.
+7. 🐍 must be the last in the sequence.","🐊, 🦅, 🐢, 🐸, 🐝, 🐍","{'analysis': ""Let's analyze the proposal step by step regarding the rules:\n 1. 🐍 is not directly before or after 🐸, it complies with the first rule. \n 2. 🦅 precedes 🐢 and follows 🐊, it complies with the second rule. \n 3. 🐸 is immediately after 🐢, it follows the third rule. \n 4. The sequence starts with 🐊, it follows the fourth rule. \n 5. 🐝 is not adjacent to either 🐊 or 🦅, so it's according to the fifth rule. \n 6. There's exactly one of each symbol in the sequence, so the sixth rule is also complied. \n 7. 🐍 is indeed the last in the sequence as the rule seven demands. \n Moreover, no other sequence can satisfy all the rules, so the given sequence is unique and valid."", 'valid': True}"
+"In this puzzle, use the symbols 👈🏽 (Backhand Index Pointing Left), 👉🏽 (Backhand Index Pointing Right), ☝🏽 (Index Pointing Up), 👇🏽 (Index Pointing Down), 👆🏽 (Backhand Index Pointing Up), and 👎🏽 (Thumbs Down). 1. 👈🏽 cannot be directly before or after 👉🏽. 2. ☝🏽 must always precede 👇🏽 but follow 👆🏽. 3. 👉🏽 must be immediately after 👇🏽. 4. The sequence must start with 👆🏽. 5. 👎🏽 cannot be adjacent to either 👆🏽 or ☝🏽. 6. The sequence contains exactly one of each symbol. 7. 👈🏽 must be the last in the sequence.","👆🏽, ☝🏽, 👇🏽, 👉🏽, 👎🏽, 👈🏽","{'analysis': 'The proposed sequence follows all the given rules and is valid. Rule 1 is not violated as 👈🏽 and 👉🏽 are separated by 👎🏽. Rule 2 is met as ☝🏽 is placed after 👆🏽 and is followed by 👇🏽. Rule 3 is upheld as 👉🏽 comes immediately after 👇🏽. Rule 4 is honoured as 👆🏽 starts the sequence. Rule 5 is not violated as 👎🏽 is not adjacent to either 👆🏽 or ☝🏽. Rule 6 is met as each symbol occurs exactly once. Lastly, Rule 7 is satisfied as 👈🏽 is the last symbol in the sequence. Also, there is no other possible sequence which follows all the rules, hence making the proposed sequence uniquely valid.', 'valid': True}"
+"In this puzzle, use the symbols 👮🏽‍♂️ (Police Officer), 🚓 (Police Car), 🚨 (Police Lights), 🚔 (Oncoming Police Car), 🚁 (Helicopter), and 🏢 (Building). 
+1. 👮🏽‍♂️ cannot be directly before or after 🚁. 
+2. 🚓 must always precede 🚔 but follow 🏢. 
+3. 🚨 must be immediately after 🚔. 
+4. The sequence must start with 🏢. 
+5. 🚁 cannot be adjacent to either 🏢 or 🚓. 
+6. The sequence contains exactly one of each symbol. 
+7. 👮🏽‍♂️ must be the last in the sequence.","🏢, 🚓, 🚔, 🚨, 🚁, 👮🏽‍♂️","{'analysis': ""First, based on the 4th rule, the sequence starts with 🏢. Then the 2nd rule guarantees 🚓 follows 🏢 without breaking the 5th rule of no 🚁 adjacent to 🏢. According to the 3rd rule 🚨 follows 🚔 and this does not break any rule. Oncoming Police Car 🚔 is placed before 🚨 by the 2nd and 3rd rules. Then, by the 1st rule, following 🚨, 🚁 is placed. It doesn't break any other rule. Last, 👮🏽\u200d♂️ comes according to 7th rule. Once all the rules have been thoroughly analyzed, we can determine that the proposed sequence does follow the order declared by the rules, and it seems to be the only possible sequence to fit all the rules. Therefore, the sequence is valid."", 'valid': True}"
+"In this puzzle, use the symbols 🐙 (Octopus), 🐠 (Tropical Fish), 🐡 (Blowfish), 🦑 (Squid), 🐚 (Spiral Shell), and 🦀 (Crab).
+1. 🐙 cannot be directly before or after 🦑.
+2. 🐠 must always precede 🐡 but follow 🐚.
+3. 🦑 must be immediately after 🐡.
+4. The sequence must start with 🐚.
+5. 🦀 cannot be adjacent to either 🐚 or 🐠.
+6. The sequence contains exactly one of each symbol.
+7. 🐙 must be the last in the sequence.","🐚, 🐠, 🐡, 🦑, 🦀, 🐙","{'analysis': 'First, the sequence begins with 🐚 and ends with 🐙, fulfilling rules 4 and 7. Then, it is checked that 🐠 is right after 🐚 and 🐡 is right after 🐠, and 🦑 is right after 🐡, which complies with rules 2 and 3. Next, 🦀 is found not to be adjacent to either 🐚 or 🐠, complying with rule 5. Additionally, 🐙 is not directly before or after 🦑, adhering to rule 1. Lastly, each symbol appears exactly once in the sequence, which satisfies rule 6. There is no other way to rearrange the symbols while still adhering to all the rules, making the proposed sequence the unique solution.', 'valid': True}"
+"In this puzzle, use the symbols 👩🏿 (Woman), ❤️ (Heart), 💋 (Kiss), 👨🏼 (Man), 💍 (Ring), and 💒 (Church). 1. 👩🏿 cannot be directly before or after 💍. 2. ❤️ must always precede 💋 but follow 👩🏿. 3. 💍 must be immediately after 💋. 4. The sequence must start with 👩🏿. 5. 💒 cannot be adjacent to either 👩🏿 or ❤️. 6. The sequence contains exactly one of each symbol. 7. 👨🏼 must be the last in the sequence.","👩🏿, ❤️, 💋, 💍, 💒, 👨🏼","{'analysis': ""Analyzing the sequence step-by-step, we have: 1. The sequence starts with 👩🏿 which complies with rule 4. 2. 👩🏿 is followed by ❤️ which complies with rule 2. 3. ❤️ is followed by 💋 which also complies with rule 2. 4. 💋 is followed by 💍 which complies with rule 3. Additionally, this does not violate rule 1 as there's no 👩🏿 directly before or after 💍. 5. 💍 is followed by 💒, and neither 👩🏿 nor ❤️ are adjacent to 💒, complying with rule 5. 6. And finally, the sequence ends with 👨🏼, complying with rule 7. Furthermore, all symbols are used exactly once, which complies with rule 6. Thus, the proposed sequence exactly follows the given rules, and it doesn't seem there are other sequences that would also do so."", 'valid': True}"
+"In this puzzle, use the symbols 🇻🇨 (St. Vincent & the Grenadines Flag), 🌴 (Palm Tree), 🌊 (Wave), 🐠 (Fish), 🌞 (Sun), and 🏖️ (Beach). 1. 🌴 cannot be directly before or after 🌊. 2. 🇻🇨 must always precede 🌞 but follow 🌊. 3. 🐠 must be immediately after 🌞. 4. The sequence must start with 🌊. 5. 🏖️ cannot be adjacent to either 🌊 or 🇻🇨. 6. The sequence contains exactly one of each symbol. 7. 🌴 must be the last in the sequence.","🌊, 🇻🇨, 🌞, 🐠, 🏖️, 🌴","{'analysis': 'Looking at the proposed sequence: 🌊, 🇻🇨, 🌞, 🐠, 🏖️, 🌴, we can check each rule: \n1. 🌴 is not directly before or after 🌊. \n2. 🇻🇨 precedes 🌞 and follows 🌊. \n3. 🐠 is immediately after 🌞. \n4. The sequence starts with 🌊. \n5. 🏖️ is not adjacent to 🌊 or 🇻🇨. \n6. The sequence contains exactly one of each symbol. \n7. 🌴 is the last in the sequence. Therefore, the proposed sequence meets all the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🫐 (Blueberries), 🍇 (Grapes), 🍓 (Strawberry), 🍒 (Cherry), 🍎 (Apple), and 🍊 (Orange).
+1. 🍇 cannot be directly before or after 🍒.
+2. 🫐 must always precede 🍓 but follow 🍎.
+3. 🍒 must be immediately after 🍓.
+4. The sequence must start with 🍎.
+5. 🍊 cannot be adjacent to either 🍎 or 🫐.
+6. The sequence contains exactly one of each symbol.
+7. 🍇 must be the last in the sequence.","🍎, 🫐, 🍓, 🍒, 🍊, 🍇","{'analysis': 'The sequence starts with 🍎, satisfying rule 4. 🫐 follows 🍎, aligning with part of rule 2. 🍓 comes after 🫐, satisfying the other part of rule 2. 🍒 is directly after 🍓, complying with rule 3. 🍊 is next and is not adjacent to either 🍎 or 🫐, satisfying rule 5. Lastly, 🍇 is at the end, align with rule 7. As all symbols are used only once in the sequence, rule 6 is also satisfied. Therefore, 🍎, 🫐, 🍓, 🍒, 🍊, 🍇 perfectly complies with all the given rules and is the only possibility.', 'valid': True}"
+"In this puzzle, use the symbols 🐶 (Dog), 🦴 (Bone), 🐾 (Paw Prints), 🏡 (House), 🌳 (Tree), and 🌞 (Sun). 
+1. 🐶 cannot be directly before or after 🦴. 
+2. 🐾 must always precede 🏡 but follow 🌳. 
+3. 🦴 must be immediately after 🏡. 
+4. The sequence must start with 🌳. 
+5. 🌞 cannot be adjacent to either 🌳 or 🐾. 
+6. The sequence contains exactly one of each symbol. 
+7. 🐶 must be the last in the sequence.","🌳, 🐾, 🏡, 🦴, 🌞, 🐶","{'analysis': ""1. The Dog is not directly before or after the Bone. \n2. The Paw Prints precede the House and follow the Tree. \n3. The Bone is immediately after the House. \n4. The sequence indeed starts with the Tree. \n5. The Sun isn't adjacent to either the Tree or the Paw Prints. \n6. The sequence contains exactly one of each symbol. \n7. The Dog is the last in the sequence. \nThis means that the proposed sequence does comply with all seven rules and is thus a possible answer."", 'valid': True}"
+"In this puzzle, use the symbols 👈🏾 (Backhand Index Pointing Left), 👉🏾 (Backhand Index Pointing Right), 👆🏾 (Backhand Index Pointing Up), 👇🏾 (Backhand Index Pointing Down), 👋🏾 (Waving Hand), and ✊🏾 (Raised Fist).
+1. 👈🏾 cannot be directly before or after 👉🏾.
+2. 👆🏾 must always precede 👇🏾 but follow ✊🏾.
+3. 👉🏾 must be immediately after 👇🏾.
+4. The sequence must start with ✊🏾.
+5. 👋🏾 cannot be adjacent to either ✊🏾 or 👆🏾.
+6. The sequence contains exactly one of each symbol.
+7. 👈🏾 must be the last in the sequence.","✊🏾, 👆🏾, 👇🏾, 👉🏾, 👋🏾, 👈🏾","{'analysis': 'First, the sequence starts with ✊🏾, satisfying rule 4. Then follows 👆🏾, which corresponds with rule 2 that 👆🏾 must always follow ✊🏾. Following, 👇🏾 appears right after 👆🏾, which again is in agreement with rule 2. 👉🏾 appears right after 👇🏾, satisfying rule 3. Then comes 👋🏾, which has space with ✊🏾 and 👆🏾, matching with rule 5. Lastly, 👈🏾 comes last in the sequence, complying with rule 7. No other order of these symbols meets all these requirements, so the given sequence is the only possible answer. All symbols appear once, satisfying rule 6. After detailed analysis, all rules of the puzzle are satisfied by the provided sequence.', 'valid': True}"
+"In this puzzle, use the symbols 🇱🇧 (Lebanon Flag), 🌲 (Tree), 🏞️ (National Park), 🏔️ (Mountain), 🌊 (Wave), and 🌅 (Sunrise). 
+1. 🇱🇧 cannot be directly before or after 🌊. 
+2. 🏞️ must always precede 🌲 but follow 🏔️. 
+3. 🌊 must be immediately after 🌲. 
+4. The sequence must start with 🏔️. 
+5. 🌅 cannot be adjacent to either 🏔️ or 🏞️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🇱🇧 must be the last in the sequence.","🏔️, 🏞️, 🌲, 🌊, 🌅, 🇱🇧","{'analysis': 'Analyzing the rules and the proposed sequence: \n1. 🇱🇧 is not directly before or after 🌊 in the proposed sequence, so it complies with rule 1. \n2. 🏞️ precedes 🌲 and follows 🏔️ in the proposed sequence, so it complies with rule 2.\n3. 🌊 is immediately after 🌲 in the proposed sequence, so it complies with rule 3.\n4. The sequence starts with 🏔️ according to the rule 4. \n5. 🌅 is not adjacent to either 🏔️ or 🏞️, so it complies with rule 5. \n6. The sequence contains exactly one of each symbol as required by rule 6.  \n7. 🇱🇧 is the last in the sequence complying with rule 7.\nFrom the analysis, the proposed sequence complies with all the given rules.', 'valid': True}"
+"In this puzzle, use the symbols 👗 (Dress), 👠 (High-Heeled Shoe), 💄 (Lipstick), 🕶️ (Sunglasses), 👜 (Handbag), and 🙎🏽‍♀️ (Woman). 1. 👗 cannot be directly before or after 🕶️. 2. 💄 must always precede 👠 but follow 👗. 3. 🕶️ must be immediately after 👠. 4. The sequence must start with 👗. 5. 🙎🏽‍♀️ cannot be adjacent to either 👗 or 💄. 6. The sequence contains exactly one of each symbol. 7. 👜 must be the last in the sequence.","👗, 💄, 👠, 🕶️, 🙎🏽‍♀️, 👜","{'analysis': 'This sequence follows the rules: 1. 👗 is not directly before or after 🕶️. 2. 💄 precedes 👠 and follows 👗. 3. 🕶️ is immediately after 👠. 4. The sequence starts with 👗. 5. 🙎🏽\u200d♀️ is not adjacent to 👗 or 💄. 6. The sequence contains exactly one of each symbol. 7. 👜 is the last in the sequence. Therefore, the answer is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🈶 (Japanese “not free of charge” Button), 🈚 (Japanese “free of charge” Button), 🈸 (Japanese “application” Button), 🈷️ (Japanese “monthly amount” Button), 🈂️ (Japanese “service charge” Button), and 🉑 (Japanese “acceptable” Button).
+1. 🈶 cannot be directly before or after 🈚.
+2. 🈸 must always precede 🈷️ but follow 🈂️.
+3. 🈚 must be immediately after 🈷️.
+4. The sequence must start with 🈂️.
+5. 🉑 cannot be adjacent to either 🈂️ or 🈸.
+6. The sequence contains exactly one of each symbol.
+7. 🈶 must be the last in the sequence.","🈂️, 🈸, 🈷️, 🈚, 🉑, 🈶","{'analysis': 'When analyzing the proposed answer according to the rules stated, we find that it is indeed valid.\n\nRule 1: 🈶 is indeed the last in the sequence, and does not appear directly before or after 🈚.\n\nRule 2: 🈸 does follow 🈂️ and precede 🈷️ in the proposed sequence.\n\nRule 3: 🈷️ is indeed immediately followed by 🈚 in the sequence.\n\nRule 4: The sequence starts exactly with 🈂️ as demanded.\n\nRule 5: 🉑 is neither adjacent to 🈂️ nor 🈸 in the sequence.\n\nRule 6: There is indeed exactly one of each symbol in the proposed sequence.\n\nRule 7: 🈶 is indeed the last in the sequence as demanded.\n\nSo the proposed answer abides by all the rules.', 'valid': True}"
+"In this puzzle, use the symbols ✴️ (Eight-pointed Star), 🌟 (Glowing Star), 💫 (Dizzy), 🌠 (Shooting Star), 🌃 (Night with Stars), and 🌌 (Milky Way). 
+1. ✴️ cannot be directly before or after 🌠. 
+2. 🌟 must always precede 💫 but follow 🌃. 
+3. 🌠 must be immediately after 💫. 
+4. The sequence must start with 🌃. 
+5. 🌌 cannot be adjacent to either 🌃 or 🌟. 
+6. The sequence contains exactly one of each symbol. 
+7. ✴️ must be the last in the sequence.","🌃, 🌟, 💫, 🌠, 🌌, ✴️","{'analysis': 'The proposed answer 🌃, 🌟, 💫, 🌠, 🌌, ✴️ does follow all the rules. The sequence starts with 🌃 and ends with ✴️. The symbol ✴️ is not before or after 🌠 and the symbol 🌟 precedes 💫 but follows 🌃, all as per the rules. 🌠 immediately follows 💫 and the symbol 🌌 does not touch either 🌃 or 🌟. Lastly, there is only one of each symbol in the sequence.', 'valid': True}"
+"In this puzzle, use the symbols 🫵 (Tamale), 🌽 (Corn), 🍅 (Tomato), 🌶️ (Pepper), 🥑 (Avocado), and 🍺 (Beer).
+1. 🫵 cannot be directly before or after 🍺.
+2. 🌽 must always precede 🍅 but follow 🥑.
+3. 🌶️ must be immediately after 🍅.
+4. The sequence must start with 🥑.
+5. 🍺 cannot be adjacent to either 🥑 or 🌽.
+6. The sequence contains exactly one of each symbol.
+7. 🫵 must be the last in the sequence.","🥑, 🌽, 🍅, 🌶️, 🍺, 🫵","{'analysis': 'The given sequence of symbols adheres to all the given rules. The sequence starts with 🥑 (rule 4). 🌽 follows 🥑 and precedes 🍅 (rule 2). 🌶️ is immediately after 🍅 (rule 3). 🍺 is not adjacent to either 🥑 or 🌽 (rule 5) and 🫵 is the last in the sequence (rule 7). 🫵 is not directly before or after 🍺 (rule 1).Lastly, the sequence contains exactly one of each symbol(rule 6). There are no other symbols that would create a different valid sequence according to the rules. ', 'valid': True}"
+"In this puzzle, use the symbols 👎🏻 (Thumbs Down), 🤬 (Face with Symbols on Mouth), 😡 (Pouting Face), 😠 (Angry Face), 😤 (Face with Steam From Nose), and 🥵 (Hot Face). 
+1. 👎🏻 cannot be directly before or after 🤬. 
+2. 😡 must always precede 😠 but follow 👎🏻. 
+3. 🤬 must be immediately after 😠. 
+4. The sequence must start with 👎🏻. 
+5. 🥵 cannot be adjacent to either 👎🏻 or 😡. 
+6. The sequence contains exactly one of each symbol. 
+7. 😤 must be the last in the sequence.","👎🏻, 😡, 😠, 🤬, 🥵, 😤","{'analysis': '1. The first rule is satisfied because 👎🏻 is not directly before or after 🤬 in the given sequence. \n2. 😡 precedes 😠 and follows 👎🏻, so the second rule is satisfied. \n3. 🤬 comes immediately after 😠, so the third rule is satisfied. \n4. The sequence starts with 👎🏻, so it satisfies the fourth rule. \n5. 🥵 is not adjacent to either 👎🏻 or 😡, fulfilling the fifth rule.\n6. The sequence contains exactly one of each symbol, so the sixth rule is also satisfied. \n7. The last symbol in the sequence is 😤, so the seventh rule is satisfied. \nIn conclusion, the proposed sequence is valid as per all the given rules.', 'valid': True}"
+"In this puzzle, use the symbols 😡 (Angry Face), 😤 (Face with Steam From Nose), 😠 (Angry Face with Horns), 😈 (Smiling Face with Horns), 🤬 (Face with Symbols on Mouth), and 🥵 (Hot Face).
+1. 😡 cannot be directly before or after 😤.
+2. 😠 must always precede 🤬 but follow 😈.
+3. 😤 must be immediately after 🤬.
+4. The sequence must start with 😈.
+5. 🥵 cannot be adjacent to either 😈 or 😠.
+6. The sequence contains exactly one of each symbol.
+7. 😡 must be the last in the sequence.","😈, 😠, 🤬, 😤, 🥵, 😡","{'analysis': ""Starting with the first rule, we can see that 😡 is not directly before or after 😤 in the proposed answer. The second rule states that 😠 must always precede 🤬 but follow 😈, which is correct in the sequence given. The third rule requirement that 😤 must be immediately after 🤬 is also followed in the proposed sequence. The sequence starts with 😈 as stated in the fourth rule, so that's a pass. The fifth rule states that 🥵 cannot be adjacent to either 😈 or 😠, which is true in the given sequence. Each symbol appears only once as indicated by the sixth rule, and 😡 is the last in the sequence as dictated by the seventh rule. Thus, the proposed answer adheres to all the rules given. So, there is no other possible sequence following the rules, the proposed sequence is correct."", 'valid': True}"
+"In this puzzle, use the symbols 🧛🏽‍♂ (Vampire), 🌕 (Full Moon), 🦇 (Bat), ⚰️ (Coffin), 🩸 (Blood), and 🏰 (Castle). 
+1. 🧛🏽‍♂ cannot be directly before or after 🩸. 
+2. 🌕 must always precede 🦇 but follow ⚰️. 
+3. 🩸 must be immediately after 🦇. 
+4. The sequence must start with ⚰️. 
+5. 🏰 cannot be adjacent to either ⚰️ or 🌕. 
+6. The sequence contains exactly one of each symbol. 
+7. 🧛🏽‍♂ must be the last in the sequence.","⚰️, 🌕, 🦇, 🩸, 🏰, 🧛🏽‍♂","{'analysis': 'The sequence is correct. The sequence starts with the required symbol ⚰️. The symbol 🌕 follows ⚰️ and precedes 🦇 as stated in rule 2. 🩸 is immediately after 🦇, which follows rule 3. The symbol 🏰 is not adjacent to either ⚰️ or 🌕, which is in line with rule 5. 🧛🏽\u200d♂ is the last in the sequence following rule 7. Each symbol is used exactly once in the sequence, respecting rule 6. The symbol 🧛🏽\u200d♂ is not directly before or after 🩸 which satisfies rule 1. Therefore, the sequence fully complies with the given rules.', 'valid': True}"
+"In this puzzle, use the symbols ⛑️ (Helmet), 🚑 (Ambulance), 🏥 (Hospital), 💉 (Syringe), 🩹 (Bandage), and 🩺 (Stethoscope). 
+1. ⛑️ cannot be directly before or after 🏥. 
+2. 🚑 must always precede 💉 but follow ⛑️. 
+3. 🏥 must be immediately after 💉. 
+4. The sequence must start with ⛑️. 
+5. 🩺 cannot be adjacent to either ⛑️ or 🚑. 
+6. The sequence contains exactly one of each symbol. 
+7. 🩹 must be the last in the sequence.","⛑️, 🚑, 💉, 🏥, 🩺, 🩹","{'analysis': ""Starting with ⛑️ correctly follows rule 4. Having 🚑 after ⛑️ complies with rule 2 (🚑 follows ⛑️). Next, 💉 follows 🚑 which aligns with rule 2 (🚑 always precedes 💉). After that, 🏥 comes immediately after 💉 which is correct as per rule 3. Next, we have 🩺 following 🏥 which doesn't violate any given rules. Lastly, 🩹 has been used to end the sequence, following rule 7 properly. The solution also follows rules 5 and 6. All the rules are satisfied."", 'valid': True}"
+"In this puzzle, use the symbols 🦹🏻‍♀️ (Villain), 💥 (Collision), 🎯 (Direct Hit), 🏹 (Bow and Arrow), 🛡️ (Shield), and 🗡️ (Dagger). 
+1. 🦹🏻‍♀️ cannot be directly before or after 💥. 
+2. 🎯 must always precede 🏹 but follow 🛡️. 
+3. 💥 must be immediately after 🏹. 
+4. The sequence must start with 🛡️. 
+5. 🗡️ cannot be adjacent to either 🛡️ or 🎯. 
+6. The sequence contains exactly one of each symbol. 
+7. 🦹🏻‍♀️ must be the last in the sequence.","🛡️, 🎯, 🏹, 💥, 🗡️, 🦹🏻‍♀️","{'analysis': 'This sequence follows all the given rules.  🛡️ starts the sequence   as per rule 4.  🎯 follows 🛡️ and precedes 🏹 as per rule 2.  💥 comes immediately after 🏹 which is the third rule. 🗡️ comes between 💥 and 🦹🏻\u200d♀️ and is not adjacent to either 🛡️ or 🎯 following rule 5. The sequence finishes with 🦹🏻\u200d♀️ following rule 7. No symbol is repeated and every symbol mentioned in the rules is present which follows rules 6.  🦹🏻\u200d♀️ has 💥 preceding it and nothing follows it, so rule 1 is also followed. Hence all the rules are followed and there is one and only one valid sequence matching the given rules.', 'valid': True}"
+"In this puzzle, use the symbols 😐 (Neutral Face), 😑 (Expressionless Face), 😶 (Face Without Mouth), 😏 (Smirking Face), 😒 (Unamused Face), and 😕 (Confused Face).
+1. 😐 cannot be directly before or after 😏.
+2. 😑 must always precede 😶 but follow 😕.
+3. 😏 must be immediately after 😶.
+4. The sequence must start with 😕.
+5. 😒 cannot be adjacent to either 😕 or 😑.
+6. The sequence contains exactly one of each symbol.
+7. 😐 must be the last in the sequence.","😕, 😑, 😶, 😏, 😒, 😐","{'analysis': 'Looking at the proposed answer: 1. 😐 is not directly before or after 😏 - rule complied with. 2. 😑 precedes 😶 and follows 😕 - rule complied with. 3. 😏 is immediately after 😶 - rule complied with. 4. The sequence starts with 😕 - rule complied with. 5. 😒 is not adjacent to either 😕 or 😑 - rule complied with. 6. The sequence contains exactly one of each symbol - rule complied with. 7. 😐 is the last in the sequence - rule complied with. The proposed answer follows all the rules, and no other combination of the symbols following the rules can be created. Therefore, the proposed answer is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🧙🏽‍♀️ (Wizard), 🧹 (Broom), 🎩 (Hat), 🐸 (Frog), 📖 (Book), and 🌟 (Star). 
+1. 🧙🏽‍♀️ cannot be directly before or after 🐸. 
+2. 🧹 must always precede 🎩 but follow 📖. 
+3. 🐸 must be immediately after 🎩. 
+4. The sequence must start with 📖. 
+5. 🌟 cannot be adjacent to either 📖 or 🧹. 
+6. The sequence contains exactly one of each symbol. 
+7. 🧙🏽‍♀️ must be the last in the sequence.","📖, 🧹, 🎩, 🐸, 🌟, 🧙🏽‍♀️","{'analysis': 'The proposed answer correctly follows all the rules. It starts with 📖. The 🧹 appears before 🎩 and after 📖. The symbol 🐸 comes immediately after the 🎩. 🌟 is not adjacent to either 📖 or 🧹. The sequence contains exactly one of each symbol and 🧙🏽\u200d♀️ is the last in the sequence. In addition, the sequence 🧙🏽\u200d♀️ is not directly before or after 🐸. After careful analysis, the proposed answer appears to be the only possible solution, which makes it valid.', 'valid': True}"
+"In this puzzle, use the symbols 💁🏼‍♂️ (Man Tipping Hand), 👗 (Dress), 👠 (High-Heeled Shoe), 💄 (Lipstick), 👛 (Purse), and 🕶️ (Sunglasses). 
+1. 💁🏼‍♂️ cannot be directly before or after 👠. 
+2. 👗 must always precede 💄 but follow 💁🏼‍♂️. 
+3. 👠 must be immediately after 💄. 
+4. The sequence must start with 💁🏼‍♂️. 
+5. 🕶️ cannot be adjacent to either 💁🏼‍♂️ or 👗. 
+6. The sequence contains exactly one of each symbol. 
+7. 👛 must be the last in the sequence.","💁🏼‍♂️, 👗, 💄, 👠, 🕶️, 👛","{'analysis': ""Starting from the first symbol, 💁🏼\u200d♂️ is correctly at the start. 👗 then follows, which is correct since it should be after 💁🏼\u200d♂️. Next is 💄, which is also correct since it should follow 👗. Then we have 👠, which is correct as it should be immediately after 💄. After this we find 🕶️, which is not adjacent to either 💁🏼\u200d♂️ or 👗, in compliance with the rules. Lastly, 👛 is the final symbol in sequence, which is correct per rule 7. Additionally, there are no other valid sequences that fulfill all the puzzle's rules. Therefore, the proposed sequence is valid."", 'valid': True}"
+"In this puzzle, use the symbols 👩🏿‍🎓 (Graduate), 📚 (Books), 🎓 (Graduation Cap), 🏫 (School), 🚌 (Bus), and 🎒 (Backpack). 
+1. 👩🏿‍🎓 cannot be directly before or after 🎒. 
+2. 📚 must always precede 🎓 but follow 🏫. 
+3. 🎒 must be immediately after 🎓. 
+4. The sequence must start with 🏫. 
+5. 🚌 cannot be adjacent to either 🏫 or 📚. 
+6. The sequence contains exactly one of each symbol. 
+7. 👩🏿‍🎓 must be the last in the sequence.","🏫, 📚, 🎓, 🎒, 🚌, 👩🏿‍🎓","{'analysis': 'The proposed sequence is: 🏫, 📚, 🎓, 🎒, 🚌, 👩🏿\u200d🎓. The sequence starts with 🏫, as per Rule 4. The sequence ends with 👩🏿\u200d🎓, which complies with Rule 7. 📚 precedes 🎓 and follows 🏫, satisfying Rule 2. 🎒 is immediately after 🎓 as per Rule 3. 👩🏿\u200d🎓 is not directly before or after 🎒, aligning with Rule 1. 🚌 is not adjacent to 🏫 or 📚, which is compliant with Rule 5. Finally, the sequence contains exactly one of each symbol as mentioned in Rule 6. Hence, the given sequence adheres to all the rules.', 'valid': True}"
+"In this puzzle, use the symbols ⚔️ (Sword), 🛡️ (Shield), 🏹 (Bow), 🎯 (Target), 🐉 (Dragon), and 🏰 (Castle).
+1. ⚔️ cannot be directly before or after 🏹.
+2. 🛡️ must always precede 🎯 but follow 🐉.
+3. 🏹 must be immediately after 🎯.
+4. The sequence must start with 🐉.
+5. 🏰 cannot be adjacent to either 🐉 or 🛡️.
+6. The sequence contains exactly one of each symbol.
+7. ⚔️ must be the last in the sequence.","🐉, 🛡️, 🎯, 🏹, 🏰, ⚔️","{'analysis': 'The proposed sequence is 🐉, 🛡️, 🎯, 🏹, 🏰, ⚔️. Analyzing it according to the rules, we have the following points:\n1. ⚔️ does not occur directly before or after 🏹. This rule is not violated.\n2. 🛡️ is following 🐉 and is preceding 🎯, not violated.\n3. 🏹 is immediately after 🎯, not violated.\n4. The sequence starts with 🐉, not violated.\n5. 🏰 is not adjacent to either 🐉 or 🛡️, not violated.\n6. The sequence contains exactly one of each symbol, not violated\n7. ⚔️ is the last in the sequence, not violated.\nThe proposed sequence fully complies with the rules and is the only possible correct sequence. Any other sequence will violate one or more of the rules.', 'valid': True}"
+"In this puzzle, use the symbols ⛴️ (Ship), 🚢 (Cruise Ship), 🏝️ (Desert Island), 🌊 (Wave), 🐬 (Dolphin), and 🌅 (Sunrise). 1. ⛴️ cannot be directly before or after 🌊. 2. 🚢 must always precede 🐬 but follow 🏝️. 3. 🌊 must be immediately after 🐬. 4. The sequence must start with 🏝️. 5. 🌅 cannot be adjacent to either 🏝️ or 🚢. 6. The sequence contains exactly one of each symbol. 7. ⛴️ must be the last in the sequence.","🏝️, 🚢, 🐬, 🌊, 🌅, ⛴️","{'analysis': 'The proposed sequence is 🏝️, 🚢, 🐬, 🌊, 🌅, ⛴️. Rule 1: The ⛴️ is not directly before or after the 🌊 which is satisfied. Rule 2: The 🚢 precedes the 🐬 and follows the 🏝️ which is satisfied. Rule 3: The 🌊 is immediately after 🐬 which is satisfied. Rule 4: The sequence starts with 🏝️ which is satisfied. Rule 5: The 🌅 is not adjacent to either the 🏝️ or 🚢 which is satisfied. Rule 6: The sequence does contain exactly one of each symbol. Rule 7: The ⛴️ is the last in the sequence, which is satisfied. \nSo all rules are satisfied, but one must also check if other combinations exist satisfying all rules.   ⛴️ has to be at end and 🏝️ has to be at the beginning. As 🚢 follows the 🏝️ and precedes 🐬, and 🌊 follows 🐬, the first four positions have to be 🏝️, 🚢, 🐬, 🌊. 🌅 is not adjacent to either 🏝️ or 🚢, making fifth position the only valid position for 🌅. Thus, no other combination exist. ', 'valid': True}"
+"In this puzzle, use the symbols ⬅️ (Left Arrow), ➡️ (Right Arrow), ⬆️ (Up Arrow), ⬇️ (Down Arrow), ↗️ (Up-Right Arrow), and ↖️ (Up-Left Arrow).
+1. ⬅️ cannot be directly before or after ➡️.
+2. ↗️ must always precede ⬆️ but follow ⬇️.
+3. ➡️ must be immediately after ⬆️.
+4. The sequence must start with ⬇️.
+5. ↖️ cannot be adjacent to either ⬇️ or ↗️.
+6. The sequence contains exactly one of each symbol.
+7. ⬅️ must be the last in the sequence.","⬇️, ↗️, ⬆️, ➡️, ↖️, ⬅️","{'analysis': ""The proposed sequence is: ⬇️, ↗️, ⬆️, ➡️, ↖️, ⬅️ . Let's validate each rule: \n\nRule 1: ⬅️ isn't directly before or after ➡️. No rule violation here. \n\nRule 2: ↗️ precedes ⬆️ and follows ⬇️. It follows the rule. \n\nRule 3: ➡️ is immediately after ⬆️. It follows the rule. \n\nRule 4: The sequence starts with ⬇️. No rule violation performed. \n\nRule 5: ↖️ isn't adjacent to either ⬇️ or ↗️. No rule violation here. \n\nRule 6: The sequence contains exactly one of each symbol, it passes this rule. \n\nRule 7: ⬅️ is last in the sequence. No rule violation here.\n\nSo, the proposed sequence respects all the rules."", 'valid': True}"
+"In this puzzle, use the symbols ⚰️ (Coffin), 👻 (Ghost), 🎃 (Pumpkin), 🦇 (Bat), 🕸️ (Spider Web), and 🌕 (Full Moon). 
+1. ⚰️ cannot be directly before or after 🌕. 
+2. 👻 must always precede 🎃 but follow ⚰️. 
+3. 🦇 must be immediately after 🎃. 
+4. The sequence must start with ⚰️. 
+5. 🌕 cannot be adjacent to either ⚰️ or 👻. 
+6. The sequence contains exactly one of each symbol. 
+7. 🕸️ must be the last in the sequence.","⚰️, 👻, 🎃, 🦇, 🌕, 🕸️","{'analysis': 'The sequence starts with ⚰️ as per rule 4. 👻 follows 🖼️ as per rule 2. 🎃following 👻 also adheres to rule 2. As per rule 3, 🦇 is immediately after 🎃. As per rule 5, 🌕 is not adjacent to either ⚰️ or 👻, it follows 🦇 which is correct. Rule 6 is also followed as every symbol appears once in the sequence. Ending with 🕸️ adheres to the rule 7. No rule is violated so the proposed answer is in accordance with the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🧎🏼‍♀️ (Person Kneeling), 🌹 (Rose), 💍 (Ring), 💌 (Love Letter), 🎁 (Gift), and 🎉 (Party Popper). 
+1. 🧎🏼‍♀️ cannot be directly before or after 💌. 
+2. 🌹 must always precede 💍 but follow 🧎🏼‍♀️. 
+3. 💌 must be immediately after 💍. 
+4. The sequence must start with 🧎🏼‍♀️. 
+5. 🎉 cannot be adjacent to either 🧎🏼‍♀️ or 🌹. 
+6. The sequence contains exactly one of each symbol. 
+7. 🎁 must be the last in the sequence.","🧎🏼‍♀️, 🌹, 💍, 💌, 🎉, 🎁","{'analysis': 'Analyzing the proposed sequence 🧎🏼\u200d♀️, 🌹, 💍, 💌, 🎉, 🎁 against the rule set: \n\n1. Rule 1: 🧎🏼\u200d♀️ is not directly before or after 💌. Passes.\n2. Rule 2: 🌹 does follow 🧎🏼\u200d♀️ and precede 💍. Passes.\n3. Rule 3: 💌 is immediately after 💍. Passes.\n4. Rule 4: The sequence does start with 🧎🏼\u200d♀️. Passes.\n5. Rule 5: 🎉 is not adjacent to either 🧎🏼\u200d♀️ or 🌹. Passes.\n6. Rule 6: The sequence contains exactly one of each symbol. Passes.\n7. Rule 7: 🎁 is the last in the sequence. Passes.\nThe proposed answer follows all the rules mentioned. And looking at the rules, it seems to be the only valid sequence that can be formed with the symbols.', 'valid': True}"
+"In this puzzle, use the symbols 🔥 (Fire), 🌋 (Volcano), 🌶️ (Hot Pepper), ☀️ (Sun), 🍳 (Frying Pan), and 🌡️ (Thermometer).
+1. 🔥 cannot be directly before or after 🌋.
+2. 🌶️ must always precede ☀️ but follow 🍳.
+3. 🌡️ must be immediately after ☀️.
+4. The sequence must start with 🍳.
+5. 🌋 cannot be adjacent to either 🍳 or 🌶️.
+6. The sequence contains exactly one of each symbol.
+7. 🔥 must be the last in the sequence.","🍳, 🌶️, ☀️, 🌡️, 🌋, 🔥","{'analysis': 'The sequence respects all the rules: \n1. 🔥 is not directly before or after 🌋.\n2. 🌶️ does indeed precede ☀️ and follows 🍳.\n3. 🌡️ is immediately after ☀️.\n4. The sequence does start with 🍳.\n5. 🌋 is not adjacent to either 🍳 or 🌶️.\n6. The sequence contains exactly one of each symbol.\n7. 🔥 is indeed the last in the sequence.\nThere is no other possible sequence respecting these rules, thus making the proposed answer the only valid one.', 'valid': True}"
+"In this puzzle, use the symbols 👩🏾‍❤‍👩🏻 (Couple with Heart: Woman, Woman), 👩🏻‍🎓 (Woman Student), 👩🏾‍🎓 (Woman Student: Dark Skin Tone), 💍 (Ring), 💒 (Wedding), and 🎓 (Graduation Cap). 1. 👩🏻‍🎓 cannot be directly before or after 💍. 2. 💒 must always precede 👩🏾‍❤‍👩🏻 but follow 👩🏾‍🎓. 3. 💍 must be immediately after 👩🏾‍❤‍👩🏻. 4. The sequence must start with 👩🏻‍🎓. 5. 🎓 cannot be adjacent to either 👩🏻‍🎓 or 💒. 6. The sequence contains exactly one of each symbol. 7. 🎓 must be the last in the sequence.","👩🏻‍🎓, 👩🏾‍🎓, 💒, 👩🏾‍❤‍👩🏻, 💍, 🎓","{'analysis': 'The proposed answer follows all the given rules. 1. 👩🏻\u200d🎓 is not directly before or after 💍. 2. 💒 always precedes 👩🏾\u200d❤\u200d👩🏻 but follows 👩🏾\u200d🎓. 3. 💍 is immediately after 👩🏾\u200d❤\u200d👩🏻. 4. The sequence starts with 👩🏻\u200d🎓. 5. 🎓 is not adjacent to either 👩🏻\u200d🎓 or 💒. 6. The sequence contains exactly one of each symbol. 7. 🎓 is the last in the sequence. Hence, the proposed answer is correct.', 'valid': True}"
+"In this puzzle, use the symbols 👮🏾‍♂️ (Police Officer), 🚓 (Police Car), 🚦 (Traffic Light), 🚧 (Construction), 🚔 (Oncoming Police Car), and 🚨 (Police Cars Revolving Light). 
+1. 👮🏾‍♂️ cannot be directly before or after 🚧. 
+2. 🚓 must always precede 🚔 but follow 🚦. 
+3. 🚧 must be immediately after 🚔. 
+4. The sequence must start with 🚦. 
+5. 🚨 cannot be adjacent to either 🚦 or 🚓. 
+6. The sequence contains exactly one of each symbol. 
+7. 👮🏾‍♂️ must be the last in the sequence.","🚦, 🚓, 🚔, 🚧, 🚨, 👮🏾‍♂️","{'analysis': ""Let's analyze the proposed answer step by step. 1) 👮🏾\u200d♂️ is not directly before or after 🚧, so Rule 1 is followed. 2) 🚓 is after 🚦 and precedes 🚔, so Rule 2 is followed. 3) 🚧 is immediately after 🚔, so Rule 3 is followed. 4) The sequence starts with 🚦, so Rule 4 is followed. 5) 🚨 is not adjacent to 🚦 or 🚓, hence Rule 5 is followed. 6) The sequence contains exactly one of each symbol, hence Rule 6. 7) 👮🏾\u200d♂️ is the last in the sequence, hence Rule 7. Hence, the rules all apply to the proposed sequence, and there does not seem to be other combinations that follow all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 🙎🏾‍♂️ (Man), 🚶🏾‍♂️ (Walking Man), 🏃🏾‍♂️ (Running Man), 🏋🏾‍♂️ (Weight Lifter), 🏊🏾‍♂️ (Swimmer), and 🚴🏾‍♂️ (Bicyclist).
+1. 🙎🏾‍♂️ cannot be directly before or after 🏋🏾‍♂️.
+2. 🚶🏾‍♂️ must always precede 🏃🏾‍♂️ but follow 🙎🏾‍♂️.
+3. 🏋🏾‍♂️ must be immediately after 🏃🏾‍♂️.
+4. The sequence must start with 🙎🏾‍♂️.
+5. 🚴🏾‍♂️ cannot be adjacent to either 🙎🏾‍♂️ or 🚶🏾‍♂️.
+6. The sequence contains exactly one of each symbol.
+7. 🏊🏾‍♂️ must be the last in the sequence.","🙎🏾‍♂️, 🚶🏾‍♂️, 🏃🏾‍♂️, 🏋🏾‍♂️, 🚴🏾‍♂️, 🏊🏾‍♂️","{'analysis': 'Starting with rule 4, the sequence does start with 🙎🏾\u200d♂️, so this is satisfied. Rule 2 is also satisfied as 🚶🏾\u200d♂️ follows 🙎🏾\u200d♂️ and precedes 🏃🏾\u200d♂️. Rule 1 is also satisfied as 🏋🏾\u200d♂️ is not adjacent to 🙎🏾\u200d♂️. Rule 3 is satisfied as 🏋🏾\u200d♂️ is immediately after 🏃🏾\u200d♂️. Rule 5 is fulfilled as 🚴🏾\u200d♂️ is not adjacent to 🙎🏾\u200d♂️ or 🚶🏾\u200d♂️. Rule 6 is satisfied as there is exactly one of each symbol present in the sequence. Finally, rule 7 is also satisfied as 🏊🏾\u200d♂️ is the last in the sequence. Therefore, it appears that all rules are satisfied and the proposed answer is a valid sequence.', 'valid': True}"
+"In this puzzle, use the symbols ♓ (Pisces), 🐠 (Fish), 🌊 (Wave), 🎣 (Fishing Pole), 🚣 (Boat), and 🏝️ (Desert Island).
+1. ♓ cannot be directly before or after 🎣.
+2. 🌊 must always precede 🐠 but follow 🚣.
+3. 🎣 must be immediately after 🐠.
+4. The sequence must start with 🚣.
+5. 🏝️ cannot be adjacent to either 🚣 or 🌊.
+6. The sequence contains exactly one of each symbol.
+7. ♓ must be the last in the sequence.","🚣, 🌊, 🐠, 🎣, 🏝️, ♓","{'analysis': ""The proposed sequence meets all the conditions set in the rules. The sequence begins with 🚣 to meet rule 4. The symbol 🌊 comes after 🚣 (rule 2) and before 🐠 (rule 2). The 🎣 is immediately after 🐠, in accordance with rule 3. The 🏝️ appears next and is not adjacent to either 🚣 or 🌊 (rule 5), resulting in the sequence 🚣, 🌊, 🐠, 🎣, 🏝️. The sequence ends with ♓ which fulfills both rule 1 (as ♓ is not before or after 🎣) and 7 that ♓ must be the last in the sequence. The sequence also satisfies rule 6, as it included all the symbols with no repetition. Therefore, there's no other possible sequence that meets all the given rules, hence the proposed sequence is valid."", 'valid': True}"
+"In this puzzle, use the symbols 🤹🏼 (Juggler), 🎪 (Circus Tent), 🎭 (Theater Masks), 🎟️ (Ticket), 🍿 (Popcorn), and 🎈 (Balloon). 
+1. 🎪 cannot be directly before or after 🎭. 
+2. 🎟️ must always precede 🍿 but follow 🤹🏼. 
+3. 🎭 must be immediately after 🍿. 
+4. The sequence must start with 🤹🏼. 
+5. 🎈 cannot be adjacent to either 🤹🏼 or 🎭. 
+6. The sequence contains exactly one of each symbol. 
+7. 🎪 must be the last in the sequence.","🤹🏼, 🎟️, 🍿, 🎭, 🎈, 🎪","{'analysis': 'The proposed sequence complies with all the rules: \n1. 🎪 is not directly before or after 🎭. \n2. 🎟️ precedes 🍿 and follows 🤹🏼, correctly. \n3. 🎭 is immediately after 🍿. \n4. The sequence starts with 🤹🏼. \n5. 🎈 is not adjacent to either 🤹🏼 or 🎭. \n6. The sequence contains exactly one of each symbol. \n7. 🎪 is the last in the sequence.\nNo other sequence can satisfy all these conditions, so the proposed sequence is the only valid one.', 'valid': True}"
+"In this puzzle, use the symbols 🦐 (Shrimp), 🐠 (Fish), 🐙 (Octopus), 🦀 (Crab), 🐡 (Blowfish), and 🐚 (Shell).
+1. 🦐 cannot be directly before or after 🐙.
+2. 🐠 must always precede 🦀 but follow 🐡.
+3. 🐙 must be immediately after 🦀.
+4. The sequence must start with 🐡.
+5. 🐚 cannot be adjacent to either 🐡 or 🐠.
+6. The sequence contains exactly one of each symbol.
+7. 🦐 must be the last in the sequence.","🐡, 🐠, 🦀, 🐙, 🐚, 🦐","{'analysis': ""The sequence 🐡, 🐠, 🦀, 🐙, 🐚, 🦐 follows all the given rules. It starts with 🐡, 🐠 precedes 🦀 and follows 🐡, 🐙 is immediately after 🦀, 🐚 is not adjacent to either 🐡 or 🐠, the sequence contains exactly one of each symbol, and 🦐 is the last in the sequence. There don't seem to be any other possible sequences that follow all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 🫶🏽 (Person Climbing), 🧗🏽‍♂️ (Man Climbing), 🧗🏽‍♀️ (Woman Climbing), 🏔️ (Mountain), 🪨 (Rock), and 🏞️ (Park). 
+1. 🫶🏽 cannot be directly before or after 🧗🏽‍♀️. 
+2. 🏔️ must always precede 🧗🏽‍♂️ but follow 🪨. 
+3. 🧗🏽‍♀️ must be immediately after 🧗🏽‍♂️. 
+4. The sequence must start with 🪨. 
+5. 🏞️ cannot be adjacent to either 🪨 or 🏔️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🫶🏽 must be the last in the sequence.","🪨, 🏔️, 🧗🏽‍♂️, 🧗🏽‍♀️, 🏞️, 🫶🏽","{'analysis': ""Let's analyze this sequence in detail: \n\nThe sequence starts with 🪨, which is correct according to rule 4. 🏔️ follows 🪨 which is correct per rule 2. 🧗🏽\u200d♂️ follows 🏔️ which also aligns with rule 2. Furthermore, 🧗🏽\u200d♀️ is immediately after 🧗🏽\u200d♂️, complying with rule 3. 🏞️ is not adjacent to either 🪨 or 🏔️, fulfilling rule 5. And lastly, 🫶🏽 is the last one in the sequence which aligns with rule 7. In addition, none of these symbols are repeated, and all required symbols are present, which fulfills rule 6. Finally, there is no occurrence of 🫶🏽 directly before or after 🧗🏽\u200d♀️ in the sequence, meaning the sequence doesn't violate rule 1. \n\nAfter this careful analysis, we can say that the proposed sequence fully complies with all the given rules."", 'valid': True}"
+"In this puzzle, use the symbols 👨🏿‍🦱 (Man), 🎓 (Graduation Cap), 📚 (Books), 💼 (Briefcase), 🏠 (House), and 🌍 (Earth). 
+1. 👨🏿‍🦱 cannot be directly before or after 🎓. 
+2. 📚 must always precede 💼 but follow 👨🏿‍🦱. 
+3. 💼 must be immediately after 📚. 
+4. The sequence must start with 👨🏿‍🦱. 
+5. 🌍 cannot be adjacent to either 👨🏿‍🦱 or 📚. 
+6. The sequence contains exactly one of each symbol. 
+7. 🏠 must be the last in the sequence.","👨🏿‍🦱, 📚, 💼, 🌍, 🎓, 🏠","{'analysis': ""The proposed answer does follow all the set rules: \n1. 👨🏿\u200d🦱 is not adjacent to 🎓. \n2. 📚 precedes 💼 and follows 👨🏿\u200d🦱. \n3. 💼 is immediately after 📚. \n4. The sequence starts with 👨🏿\u200d🦱. \n5. 🌍 is not adjacent to either 👨🏿\u200d🦱 or 📚. \n6. All symbols appear exactly once. \n7. 🏠 is the last symbol in the sequence. \nConsidering all these points, the proposed answer is correct as per the given rules. I also don't see any other sequence which could satisfy all these conditions therefore this is the only valid sequence."", 'valid': True}"
+"In this puzzle, use the symbols 😂 (Laughing), 😭 (Crying), 🤣 (Rolling on the Floor Laughing), 😅 (Sweat Smile), 😁 (Grin), and 😆 (Grinning Squinting Eyes).
+1. 😂 cannot be directly before or after 😭.
+2. 🤣 must always precede 😅 but follow 😁.
+3. 😭 must be immediately after 😅.
+4. The sequence must start with 😁.
+5. 😆 cannot be adjacent to either 😁 or 🤣.
+6. The sequence contains exactly one of each symbol.
+7. 😂 must be the last in the sequence.","😁, 🤣, 😅, 😭, 😆, 😂","{'analysis': ""Looking at the proposed answer, it is clear that all rules have been followed:\n1. 😂 is at the end, and it's not directly before or after 😭.\n2. 🤣 is preceded by 😁 and followed by 😅, complying with its rule.\n3. 😭 is immediately after 😅, as it should be.\n4. The sequence starts with 😁.\n5. 😆 is not adjacent to either 😁 or 🤣.\n6. All symbols appear exactly once.\n7. 😂 is the last in the sequence.\n\nExamining the rules, it is clear that this is the only possible sequence that satisfies all rules. Hence, the proposed answer is valid."", 'valid': True}"
+"In this puzzle, use the symbols 💄 (Lipstick), 👠 (High-heeled Shoe), 👗 (Dress), 🙎🏽‍♀️ (Woman), 🎒 (Backpack), and 🕶️ (Sunglasses).
+1. 💄 cannot be directly before or after 🎒.
+2. 👠 must always precede 👗 but follow 🙎🏽‍♀️.
+3. 🎒 must be immediately after 👗.
+4. The sequence must start with 🙎🏽‍♀️.
+5. 🕶️ cannot be adjacent to either 🙎🏽‍♀️ or 👠.
+6. The sequence contains exactly one of each symbol.
+7. 💄 must be the last in the sequence.","🙎🏽‍♀️, 👠, 👗, 🎒, 🕶️, 💄","{'analysis': ""Let's validate each rule with the given sequence:\n\n1. 💄 is not directly before or after 🎒. - CORRECT\n2. 👠 is always before 👗 and follows 🙎🏽\u200d♀️. - CORRECT\n3. 🎒 immediately follows 👗. - CORRECT\n4. Sequence starts with 🙎🏽\u200d♀️. - CORRECT\n5. 🕶️ is not adjacent to either 🙎🏽\u200d♀️ or 👠. - CORRECT\n6. The sequence contains exactly one of each symbol. - CORRECT\n7. 💄 is the last in the sequence. - CORRECT\n\nWhen we check all rules, we see that the sequence given follows all the rules. Also, given these constraints, it's the only possible sequence. So we can say that the proposed sequence is a valid answer here."", 'valid': True}"
+"In this puzzle, use the symbols 🖖 (Vulcan Salute), 👽 (Alien), 🛸 (Flying Saucer), 🌍 (Earth), 🌠 (Shooting Star), and 🌑 (New Moon). 1. 🖖 cannot be directly before or after 👽. 2. 🌍 must always precede 🛸 but follow 🌑. 3. 👽 must be immediately after 🌠. 4. The sequence must start with 🌑. 5. 🌠 cannot be adjacent to either 🌑 or 🌍. 6. The sequence contains exactly one of each symbol. 7. 🖖 must be the last in the sequence.","🌑, 🌍, 🛸, 🌠, 👽, 🖖","{'analysis': 'Starting from the first rule, the proposed sequence satisfies the demand of all rules. 🖖 (Vulcan Salute) is not before or after 👽 (Alien), which is rule 1, and is last in the sequence, which is rule 7. Rule 2 demands that 🌍 (Earth) must always precede 🛸 (Flying Saucer), but follow 🌑 (New Moon), which also applies to the proposed sequence. 👽 (Alien) is immediately after 🌠 (Shooting Star), complying with rule 3. The sequence starts with 🌑 (New Moon), as per rule 4. 🌠 (Shooting Star) is not adjacent to either 🌑 or 🌍, which satisfies rule 5. Finally, the sequence contains exactly one of each symbol, which is rule 6. There is no other sequence that could satisfy all these rules, hence the proposed sequence is the only valid answer.', 'valid': True}"
+"In this puzzle, use the symbols 💏 (Kiss), 💑 (Couple with Heart), 💍 (Ring), 💒 (Wedding), 👪 (Family), and 🏡 (House). 
+1. 💏 cannot be directly before or after 💍. 
+2. 💑 must always precede 💒 but follow 👪. 
+3. 💍 must be immediately after 💒. 
+4. The sequence must start with 👪. 
+5. 🏡 cannot be adjacent to either 👪 or 💑. 
+6. The sequence contains exactly one of each symbol. 
+7. 💏 must be the last in the sequence.","👪, 💑, 💒, 💍, 🏡, 💏","{'analysis': ""Here's the validation rundown for each rule:\n\n1. 💏 is not directly before or after 💍. This clause is satisfied.\n2. 💑 precedes 💒 and follows 👪. This clause is satisfied.\n3. 💍 is immediately after 💒. This clause is satisfied.\n4. The sequence starts with 👪. This clause is satisfied.\n5. 🏡 is not adjacent to either 👪 or 💑. This clause is satisfied.\n6. The sequence contains exactly one of each symbol. This clause is satisfied.\n7. 💏 is the last in the sequence. This clause is satisfied.\n\nGiven all the rules, the proposed answer is seen to completely comply with the rules and there seems to be no alternate valid sequence. Hence, the proposed sequence is a valid solution."", 'valid': True}"
+"In this puzzle, use the symbols 🎄 (Christmas Tree), 🎁 (Gift), 🍪 (Cookie), 🥛 (Milk), 🦌 (Reindeer), and 🤶🏾 (Mrs. Claus). 
+1. 🎄 cannot be directly before or after 🦌. 
+2. 🎁 must always precede 🍪 but follow 🥛. 
+3. 🦌 must be immediately after 🍪. 
+4. The sequence must start with 🥛. 
+5. 🤶🏾 cannot be adjacent to either 🥛 or 🎁. 
+6. The sequence contains exactly one of each symbol. 
+7. 🎄 must be the last in the sequence.","🥛, 🎁, 🍪, 🦌, 🤶🏾, 🎄","{'analysis': ""Let's analyze the proposed answer given the rules: \n1. 🎄 (Christmas Tree) is not directly before or after 🦌 (Reindeer) in the proposed answer, meeting Rule 1. \n2. In the proposed answer, 🎁 (Gift) always follows 🥛 (Milk) and precedes 🍪 (Cookie), meeting Rule 2. \n3. 🦌 (Reindeer) is immediately after 🍪 (Cookie) in the proposed answer, so Rule 3 is satisfied. \n4. The sequence does start with 🥛 (Milk) in compliance with Rule 4. \n5. 🤶🏾 (Mrs. Claus) is not adjacent to either 🥛 (Milk) or 🎁 (Gift) in the proposed answer, abiding by Rule 5. \n6. The sequence contains exactly one of each symbol, as per Rule 6. \n7. Finally, 🎄 (Christmas Tree) is last in the sequence, which is in line with Rule 7. \nGiven all these observations, the proposed answer is the only one that satisfies all the rules, so it is valid."", 'valid': True}"
+"In this puzzle, use the symbols 😘 (Kiss), 💔 (Broken Heart), 💖 (Sparkling Heart), 💝 (Gift Heart), 💞 (Revolving Hearts), and 💗 (Growing Heart). 
+1. 😘 cannot be directly before or after 💔. 
+2. 💖 must always precede 💝 but follow 💞. 
+3. 💔 must be immediately after 💝. 
+4. The sequence must start with 💞. 
+5. 💗 cannot be adjacent to either 💞 or 💖. 
+6. The sequence contains exactly one of each symbol. 
+7. 😘 must be the last in the sequence.","💞, 💖, 💝, 💔, 💗, 😘","{'analysis': 'Analyzing the proposed sequence we find that it starts with 💞 (rule 4), the sequence does not contain the same symbol more than once (rule 6) and ends with 😘 (rule 7). Moving to the first rule, there is no 😘 directly before or after 💔. In relation to rule 2, we find 💖 preceding 💝 and following 💞. Regarding rule 3, 💔 is immediately after 💝 . Finally and as stipulated in rule 5, 💗 is not adjacent to either 💞 or 💖. Thus the sequence fully complies with the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🧽 (Sponge), 🚿 (Shower), 🛁 (Bathtub), 🧴 (Lotion), 🧺 (Laundry), and 🧹 (Broom). 
+1. 🧽 cannot be directly before or after 🧴. 
+2. 🚿 must always precede 🛁 but follow 🧺. 
+3. 🧴 must be immediately after 🛁. 
+4. The sequence must start with 🧺. 
+5. 🧹 cannot be adjacent to either 🧺 or 🚿. 
+6. The sequence contains exactly one of each symbol. 
+7. 🧽 must be the last in the sequence.","🧺, 🚿, 🛁, 🧴, 🧹, 🧽","{'analysis': 'The proposed answer follows the rules: 🧺 initiates the sequence as per rule 4. Then it is succeeded by 🚿, abiding by rule 2 which states that 🚿 must follow 🧺. After that, 🛁 comes right after 🚿 and is immediately followed by 🧴, in accordance with rule 3. 🧹 is not adjacent to either 🧺 or 🚿 keeping rule 5. Then, the sequence ends with 🧽 satisfying rule 7. All symbols are present and in a position that abides by the rules. There are no other placements that the symbols could be in without breaching at least one rule.', 'valid': True}"
+"In this puzzle, use the symbols 🏄🏽‍♂ (Surfer), 🌊 (Wave), 🏖️ (Beach), 🌞 (Sun), 🐚 (Shell), and 🦈 (Shark). 
+1. 🏄🏽‍♂ cannot be directly before or after 🦈. 
+2. 🌊 must always precede 🏖️ but follow 🌞. 
+3. 🐚 must be immediately after 🏖️. 
+4. The sequence must start with 🌞. 
+5. 🦈 cannot be adjacent to either 🌞 or 🌊. 
+6. The sequence contains exactly one of each symbol. 
+7. 🏄🏽‍♂ must be the last in the sequence.","🌞, 🌊, 🏖️, 🐚, 🦈, 🏄🏽‍♂","{'analysis': ""The proposed sequence is 🌞, 🌊, 🏖️, 🐚, 🦈, 🏄🏽\u200d♂. Rule 1 states that the surfer cannot be immediately adjacent to the shark, which is true in the proposed sequence. Rule 2 states that the wave must always precede the beach but follow the sun, which is also true in the proposed sequence. Rule 3 instructs that the shell must be immediately after the beach, which is also correctly followed in the proposed sequence. Rule 4 states that the sequence must start with the sun, which it does. Rule 5 states that the shark cannot be adjacent to either the sun or the wave, which it isn't in the proposed sequence. Rule 6 says the sequence contains exactly one of each symbol which is true for the proposed sequence. Lastly, rule 7 instructs that the surfer must be the last in sequence, which it is. Conclusively, the proposed sequence follows all the rules. There is no other sequence that can satisfy all these rules, meaning the proposed sequence is the only valid answer."", 'valid': True}"
+"In this puzzle, use the symbols ⬅ (Left Arrow), ↖ (Up-Left Arrow), ↙ (Down-Left Arrow), ↩ (Leftwards Arrow with Hook), ⤴ (Rightwards Arrow with Loop), and ⤵ (Rightwards Arrow with Loop). 
+1. ⬅ cannot be directly before or after ↩. 
+2. ↖ must always precede ↙ but follow ⬅. 
+3. ↩ must be immediately after ↙. 
+4. The sequence must start with ⬅. 
+5. ⤴ cannot be adjacent to either ⬅ or ↖. 
+6. The sequence contains exactly one of each symbol. 
+7. ⤵ must be the last in the sequence.","⬅, ↖, ↙, ↩, ⤴, ⤵","{'analysis': 'Firstly the sequence begins with ⬅ which satisfies rule 4. Notice that ↖ comes after ⬅ which satisfies one condition of rule 2 but it must be noted that ↖ must also always precede ↙ which is further along in the sequence, satisfying rule 2 completely. There is no ⬅ directly before or after ↩ which satisfies rule 1. ↩ comes immediately after ↙ which satisfies rule 3. Furthermore, ⤴ is not adjacent to either ⬅ or ↖ satisfying rule 5 and ⤵ is last in the sequence, satisfying rule 7. Lastly, the sequence consists exactly one of each symbol satisfying rule 6. The whole sequence therefore fully complies with the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🪇 (Bat), 🌕 (Full Moon), 🌲 (Tree), 🌃 (Cityscape at Dusk), 🌧️ (Cloud with Rain), and 🌈 (Rainbow).
+1. 🌕 cannot be directly before or after 🌧️.
+2. 🌲 must always precede 🌃 but follow 🌕.
+3. 🌧️ must be immediately after 🌃.
+4. The sequence must start with 🌕.
+5. 🌈 cannot be adjacent to either 🌕 or 🌲.
+6. The sequence contains exactly one of each symbol.
+7. 🪇 must be the last in the sequence.","🌕, 🌲, 🌃, 🌧️, 🌈, 🪇","{'analysis': 'According to the rules, the proposed sequence follows all the rules. Analysis of each rule for the given sequence is as follows:\n Rule 1: 🌕 is not directly before or after 🌧️. \n Rule 2: 🌲 is precedes 🌃 and follows 🌕. \n Rule 3: 🌧️ is immediately after 🌃. \n Rule 4: The sequence starts with 🌕. \n Rule 5: 🌈 is not adjacent to either 🌕 or 🌲. \n Rule 6: The sequence contains exactly one of each symbol. \n Rule 7: 🪇 is the last in the sequence. \nNo other sequence can be made following all the rules, hence the proposed answer is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🇵🇹 (Portugal Flag), 🍷 (Wine Glass), 🐓 (Rooster), ⚽ (Soccer Ball), 🎸 (Guitar), and 🏖️ (Beach). 
+1. 🇵🇹 cannot be directly before or after 🍷. 
+2. 🐓 must always precede ⚽ but follow 🎸. 
+3. 🍷 must be immediately after ⚽. 
+4. The sequence must start with 🎸. 
+5. 🏖️ cannot be adjacent to either 🎸 or 🐓. 
+6. The sequence contains exactly one of each symbol. 
+7. 🇵🇹 must be the last in the sequence.","🎸, 🐓, ⚽, 🍷, 🏖️, 🇵🇹","{'analysis': 'The proposed sequence follows all the rules: The sequence starts with 🎸 (rule 4). The rooster 🐓 follows the guitar but precedes the soccer ball ⚽ (rule 2). The wine glass 🍷 immediately follows the soccer ball (rule 3). The beach 🏖️ is not adjacent to either the guitar or the rooster (rule 5). The sequence contains exactly one of each symbol (rule 6), and Portugal 🇵🇹 is at the end of the sequence (rule 7). Portugal is not directly before or after the wine glass, which complies with rule 1. This is the only possible sequence that fits all the rules.', 'valid': True}"
+"In this puzzle, use the symbols 👵🏽 (Old Woman), 🧓🏽 (Old Man), 👴🏽 (Older Man), 👵🏾 (Older Woman), 👨‍🦳 (Man with White Hair), and 👩‍🦳 (Woman with White Hair).
+1. 👵🏽 cannot be directly before or after 👨‍🦳.
+2. 🧓🏽 must always precede 👩‍🦳 but follow 👵🏾.
+3. 👨‍🦳 must be immediately after 👩‍🦳.
+4. The sequence must start with 👵🏾.
+5. 👴🏽 cannot be adjacent to either 👵🏾 or 🧓🏽.
+6. The sequence contains exactly one of each symbol.
+7. 👵🏽 must be the last in the sequence.","👵🏾, 🧓🏽, 👩‍🦳, 👨‍🦳, 👴🏽, 👵🏽","{'analysis': ""It can be observed that the proposed sequence complies with all of the rules:\n\n1. 👵🏽 is the last element of the sequence and doesn't precede or follow 👨\u200d🦳.\n2. 🧓🏽 precedes 👩\u200d🦳 and follows 👵🏾 in the sequence.\n3. 👨\u200d🦳 is immediately after 👩\u200d🦳.\n4. The sequence starts with 👵🏾.\n5. 👴🏽 is not adjacent to either 👵🏾 or 🧓🏽.\n6. The sequence contains exactly one of each symbol.\n7. 👵🏽 is the last in the sequence.\n\nMoreover, due to the unique requirements for each symbol's position in the sequence, this is the only sequence that satisfies all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 🕵️‍♀️ (Detective), 🔍 (Magnifying Glass), 📝 (Memo), 🗝️ (Key), 🚪 (Door), and 🎩 (Hat). 
+1. 🕵️‍♀️ cannot be directly before or after 🗝️. 
+2. 🔍 must always precede 📝 but follow 🚪. 
+3. 🗝️ must be immediately after 📝. 
+4. The sequence must start with 🚪. 
+5. 🎩 cannot be adjacent to either 🚪 or 🔍. 
+6. The sequence contains exactly one of each symbol. 
+7. 🕵️‍♀️ must be the last in the sequence.","🚪, 🔍, 📝, 🗝️, 🎩, 🕵️‍♀️","{'analysis': 'The proposed sequence is 🚪, 🔍, 📝, 🗝️, 🎩, 🕵️\u200d♀️. The sequence starts with 🚪, adhering to rule 4. The 🔍 comes after 🚪 and before 📝, adhering to rule 2. The 🗝️ comes immediately after 📝, adhering to rule 3. The 🎩 is not adjacent to either 🚪 or 🔍, adhering to rule 5. There is exactly one of each symbol in the sequence, adhering to rule 6. The sequence ends with 🕵️\u200d♀️, adhering to rule 7. Finally, the 🕵️\u200d♀️ is not directly before or after 🗝️, adhering to rule 1. All the rules have been followed correctly, and the proposed sequence is the only possible sequence that adheres to all the rules, therefore it is a valid answer.', 'valid': True}"
+"In this puzzle, use the symbols ⛩️ (Shinto Shrine), 🎎 (Dolls), 🎏 (Carp Streamer), 🎐 (Wind Chime), 🏮 (Lantern), and 🎋 (Tanabata Tree). 
+1. ⛩️ cannot be directly before or after 🎏. 
+2. 🎎 must always precede 🎐 but follow 🏮. 
+3. 🎏 must be immediately after 🎐. 
+4. The sequence must start with 🏮. 
+5. 🎋 cannot be adjacent to either 🏮 or 🎎. 
+6. The sequence contains exactly one of each symbol. 
+7. ⛩️ must be the last in the sequence.","🏮, 🎎, 🎐, 🎏, 🎋, ⛩️","{'analysis': 'The proposed answer 🏮, 🎎, 🎐, 🎏, 🎋, ⛩️ follows the sequence rules set. 🏮 starts the sequence satisfying Rule 4. 🎎 precedes 🎐 and follows 🏮, meeting Rule 2. 🎏 is immediately after 🎐 in compliance with Rule 3. ⛩️ is the last symbol, meeting Rule 7. 🎋 is not adjacent to either 🏮 or 🎎 meeting Rule 5. ⛩️ is not directly before or after 🎏, which satisfies Rule 1. Finally, each symbol is represented once according to Rule 6. Therefore, the proposed answer is valid and is the only possible answer that meets all the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🧰 (Toolbox), 🔧 (Wrench), 🔩 (Nut and Bolt), 🪛 (Screwdriver), 🪚 (Carpentry Saw), and 🪓 (Axe). 
+1. 🧰 cannot be directly before or after 🪚. 
+2. 🔧 must always precede 🔩 but follow 🪛. 
+3. 🪚 must be immediately after 🔩. 
+4. The sequence must start with 🪛. 
+5. 🪓 cannot be adjacent to either 🪛 or 🔧. 
+6. The sequence contains exactly one of each symbol. 
+7. 🧰 must be the last in the sequence.","🪛, 🔧, 🔩, 🪚, 🪓, 🧰","{'analysis': ""In this proposed answer, the rules were followed correctly. 🪛 starts the sequence and is followed by 🔧 that precedes 🔩. The sequence then continues with 🪚 that comes immediately after 🔩, satisfying rule 3. None of these elements are adjacent to 🪓 which follows 🪚 and it isn't adjacent to 🪛 or 🔧. 🧰 is at the end of the sequence which fulfills rule 7, and there is exactly one of each symbol. The proposed answer respects all the given rules, hence it is valid and unique."", 'valid': True}"
+"In this puzzle, use the symbols 👩🏿‍🏭 (Woman Factory Worker), 🏭 (Factory), 🚚 (Delivery Truck), 📦 (Package), 🏢 (Office Building), and 📈 (Chart Increasing). 
+1. 👩🏿‍🏭 cannot be directly before or after 📦. 
+2. 🏭 must always precede 🚚 but follow 🏢. 
+3. 📦 must be immediately after 🚚. 
+4. The sequence must start with 🏢. 
+5. 📈 cannot be adjacent to either 🏢 or 🏭. 
+6. The sequence contains exactly one of each symbol. 
+7. 👩🏿‍🏭 must be the last in the sequence.","🏢, 🏭, 🚚, 📦, 📈, 👩🏿‍🏭","{'analysis': 'The proposed sequence adheres to each of the rules. It starts with the 🏢 symbol and ends with the 👩🏿\u200d🏭 symbol. 🏭 comes immediately after 🏢 and precedes 🚚, which is followed by 📦 as required, and 👩🏿\u200d🏭 is not directly adjacent to 📦. 📈 is not adjacent to either 🏢 or 🏭 and is only adjacent to 📦 and 👩🏿\u200d🏭. The sequence also contains exactly one of each symbol. Hence, the proposed sequence is valid given the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🛃 (Customs), 🛄 (Baggage Claim), ✈️ (Airplane), 🛫 (Airplane Departure), 🛬 (Airplane Arrival), and 🛂 (Passport Control). 
+1. 🛃 cannot be directly before or after 🛄. 
+2. 🛄 must always precede ✈️ but follow 🛬. 
+3. 🛫 must be immediately after ✈️. 
+4. The sequence must start with 🛬. 
+5. 🛂 cannot be adjacent to either 🛬 or 🛄. 
+6. The sequence contains exactly one of each symbol. 
+7. 🛃 must be the last in the sequence.","🛬, 🛄, ✈️, 🛫, 🛂, 🛃","{'analysis': ""Analyzing the proposed answer based on the puzzle's rules: Rule 1: 🛃 is not directly before or after 🛄 in the proposed solution. Rule 2: 🛄 does precede ✈️ and follows 🛬 in the proposed solution. Rule 3: 🛫 immediately follows ✈️ in the proposed solution. Rule 4: The sequence does start with 🛬 in the proposed solution. Rule 5: 🛂 is not adjacent to either 🛬 or 🛄 in the proposed solution. Rule 6: The sequence does contain exactly one of each symbol in the proposed solution. Rule 7: 🛃 is the last in the proposed solution. There doesn't seem to be any other possible sequences based on the rules. Therefore, the proposed sequence is the correct and only valid answer."", 'valid': True}"
+"In this puzzle, use the symbols ✈️ (Airplane), 🛄 (Baggage Claim), 🛫 (Airplane Departure), 🛬 (Airplane Arrival), 👩🏻‍✈️ (Woman Pilot), and 🛩️ (Small Airplane). 
+1. ✈️ cannot be directly before or after 🛄. 
+2. 🛫 must always precede 👩🏻‍✈️ but follow 🛄. 
+3. 🛬 must be immediately after 👩🏻‍✈️. 
+4. The sequence must start with 🛄. 
+5. 🛩️ cannot be adjacent to either 🛄 or 🛫. 
+6. The sequence contains exactly one of each symbol. 
+7. ✈️ must be the last in the sequence.","🛄, 🛫, 👩🏻‍✈️, 🛬, 🛩️, ✈️","{'analysis': 'The sequence begins with 🛄 as point 4 mandates. The 🛄 is followed by 🛫, fulfilling rule 2. The 🛫 is followed by 👩🏻\u200d✈️, also in accordance with rule 2. After that, 🛬 comes rightly after 👩🏻\u200d✈️ (rule 3). The symbol 🛩️ does not neighbour 🛄 and 🛫, which is in line with rule 5. 🛩️ is followed by ✈️, which is the last symbol in the sequence, fulfilling rule 7. And also, the sequence seems to contain exactly one each of the symbols, which satisfies rule 6. Thus all rules are met.', 'valid': True}"
+"In this puzzle, use the symbols 🧑🏻‍❤‍💋‍🧑🏼 (Kiss), 💍 (Ring), 💒 (Wedding), 👶 (Baby), 👪 (Family), and 🏡 (House). 
+1. 🧑🏻‍❤‍💋‍🧑🏼 cannot be directly before or after 👪. 
+2. 💍 must always precede 💒 but follow 🧑🏻‍❤‍💋‍🧑🏼. 
+3. 👶 must be immediately after 💒. 
+4. The sequence must start with 🧑🏻‍❤‍💋‍🧑🏼. 
+5. 🏡 cannot be adjacent to either 🧑🏻‍❤‍💋‍🧑🏼 or 💍. 
+6. The sequence contains exactly one of each symbol. 
+7. 👪 must be the last in the sequence.","🧑🏻‍❤‍💋‍🧑🏼, 💍, 💒, 👶, 🏡, 👪","{'analysis': ""The proposed answer complies with all the rules. The sequence begins with 🧑🏻\u200d❤\u200d💋\u200d🧑🏼, as per rule 4 and the symbol appears only once in the sequence as per rule 6, and it's not adjacent to 👪 rule 1. Then it is followed by 💍, which even though it follows 🧑🏻\u200d❤\u200d💋\u200d🧑🏼 as per rule 2 and only appears once as per rule 6, it's not adjacent to 🏡, which is within the rule 5. 💒 is following 💍 as per rule 2 and only appears once as required by rule 6. 💒 is immediately followed by 👶 complies with rule 3 and it also appears only once as per rule 6. Next, 🏡 is not adjacent to either 🧑🏻\u200d❤\u200d💋\u200d🧑🏼 or 💍 as per rule 5 and appears only once as per rule 6. Finally, the sequence ends with 👪 as per rule 7 which also appears only once as per rule 6. Hence, no other sequences can be built as per these rules. Thus, the proposed answer is valid and correct."", 'valid': True}"
+"In this puzzle, use the symbols 👱🏾‍♂️ (Man), 🏀 (Basketball), 🏆 (Trophy), 🎽 (Running Shirt), 🥇 (1st Place Medal), and 🏟️ (Stadium). 
+1. 👱🏾‍♂️ cannot be directly before or after 🏀. 
+2. 🏆 must always precede 🎽 but follow 🥇. 
+3. 🏀 must be immediately after 🎽. 
+4. The sequence must start with 🥇. 
+5. 🏟️ cannot be adjacent to either 🥇 or 🏆. 
+6. The sequence contains exactly one of each symbol. 
+7. 👱🏾‍♂️ must be the last in the sequence.","🥇, 🏆, 🎽, 🏀, 🏟️, 👱🏾‍♂️","{'analysis': 'Checking if the proposed sequence follows the rules: \n     1) The sequence starts with 🥇. So, rule #4 is followed. \n     2) 👱🏾\u200d♂️ is at the end of the sequence. Hence, rule #7 is followed. \n     3) 🏀 is immediately after 🎽. Hence, rule #3 is followed. \n     4) 🏆 follows 🥇 and precedes 🎽. Hence, rule #2 is followed. \n     5) 👱🏾\u200d♂️ is not immediately before or after 🏀. Hence, rule #1 is followed. \n     6) There is exactly one of each symbol. So, rule #6 is followed. \n     7) 🏟️ is not adjacent to either 🥇 or 🏆. Hence, rule #5 is followed. \n\n It seems like the sequence follows all the rules. However, we need to check for other possible answers. After analyzing the rules and trying out different combinations using the rules, the proposed sequence seems to be the only one possible. Hence, the proposed answer is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🦁 (Lion), 🐘 (Elephant), 🦓 (Zebra), 🦒 (Giraffe), 🌳 (Tree), and 🌞 (Sun). 
+1. 🦁 cannot be directly before or after 🦒. 
+2. 🐘 must always precede 🦓 but follow 🌳. 
+3. 🦒 must be immediately after 🦓. 
+4. The sequence must start with 🌳. 
+5. 🌞 cannot be adjacent to either 🌳 or 🐘. 
+6. The sequence contains exactly one of each symbol. 
+7. 🦁 must be the last in the sequence.","🌳, 🐘, 🦓, 🦒, 🌞, 🦁","{'analysis': ""Let's analyze the proposed answer according to the rules:\n1. 🦁 (Lion) is not before or after 🦒 (Giraffe) [✔]\n2. 🐘 (Elephant) precedes 🦓 (Zebra) and follows 🌳 (Tree) [✔]\n3. 🦒 (Giraffe) is immediately after 🦓 (Zebra) [✔]\n4. The sequence starts with 🌳 (Tree) [✔]\n5. 🌞 (Sun) is not adjacent to either 🌳 (Tree) or 🐘 (Elephant) [✔]\n6. Each symbol appears once in the sequence [✔]\n7. 🦁 (Lion) is the last in the sequence [✔].\n\nSo, all rules are satisfied with the proposed answer."", 'valid': True}"
+"In this puzzle, use the symbols ✋ (Hand), 🖐️ (Hand with Fingers Splayed), 🤚 (Raised Back of Hand), 👋 (Waving Hand), 🤏 (Pinching Hand), and 🙌 (Raising Hands). 1. ✋ cannot be directly before or after 🖐️. 2. 🤚 must always precede 👋 but follow 🙌. 3. 🖐️ must be immediately after 👋. 4. The sequence must start with 🙌. 5. 🤏 cannot be adjacent to either 🙌 or 🤚. 6. The sequence contains exactly one of each symbol. 7. ✋ must be the last in the sequence.","🙌, 🤚, 👋, 🖐️, 🤏, ✋","{'analysis': 'The proposed sequence starts with 🙌, which complies with rule 4. In the sequence, 🤚 follows 🙌 and precedes 👋, complying with rule 2. 🖐️ is immediately after 👋, complying with rule 3. The sequence ends with ✋, complying with rule 7. 🤏 is not adjacent to either 🙌 or 🤚, complying with rule 5. No symbol is repeated and all are present, complying with rule 6. And, ✋ is not directly before or after 🖐️, complying with rule 1. All the rules are followed by the proposed sequence.', 'valid': True}"
+"In this puzzle, use the symbols 🫱🏽 (Person Climbing), 🧗🏽‍♀️ (Woman Climbing), 🧗🏽‍♂️ (Man Climbing), 🏔️ (Mountain), 🚁 (Helicopter), and 🚠 (Mountain Cableway). 
+1. 🧗🏽‍♀️ cannot be directly before or after 🚠. 
+2. 🏔️ must always precede 🧗🏽‍♂️ but follow 🚁. 
+3. 🚠 must be immediately after 🧗🏽‍♂️. 
+4. The sequence must start with 🚁. 
+5. 🫱🏽 cannot be adjacent to either 🚁 or 🏔️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🧗🏽‍♀️ must be the last in the sequence.","🚁, 🏔️, 🧗🏽‍♂️, 🚠, 🫱🏽, 🧗🏽‍♀️","{'analysis': ""Let's examine the rules one by one for the proposed sequence: \n1. 🧗🏽\u200d♀️ is not directly before or after 🚠, instead 🫱🏽 is between them - the rule is followed. \n2. 🏔️ is before 🧗🏽\u200d♂️ and after 🚁 - the rule is followed. \n3. 🚠 is immediately after 🧗🏽\u200d♂️ - the rule is followed. \n4. The sequence does indeed start with 🚁 - the rule is followed. \n5. 🫱🏽 is not adjacent to 🚁 or 🏔️, instead there is 🚠 and 🧗🏽\u200d♀️ between them - the rule is followed. \n6. There is only one of each symbol - the rule is followed. \n7. 🧗🏽\u200d♀️ is at the end of the sequence - the rule is followed. \nAll the rules are followed, hence there is no other sequence possible that would collate the symbols following the rules."", 'valid': True}"
+"In this puzzle, use the symbols 💑 (Couple with Heart), 💍 (Ring), 👰 (Bride), 🤵 (Groom), 🎉 (Party Popper), and 💒 (Wedding). 1. 💑 cannot be directly before or after 💍. 2. 👰 must always precede 🤵 but follow 💑. 3. 💍 must be immediately after 🤵. 4. The sequence must start with 💑. 5. 🎉 cannot be adjacent to either 💑 or 👰. 6. The sequence contains exactly one of each symbol. 7. 💒 must be the last in the sequence.","💑, 👰, 🤵, 💍, 🎉, 💒","{'analysis': ""Here's an analysis based on the rules for each of the symbols: \n- Rule 1: 💑 is not directly before or after 💍. Therefore this rule is followed. \n- Rule 2: 👰 precedes 🤵 and follows 💑. Therefore, this rule is followed. \n- Rule 3: 💍 is immediately after 🤵. Therefore, this rule is followed. \n- Rule 4: The sequence starts with 💑. Therefore this rule is followed. \n- Rule 5: 🎉 is not adjacent to either 💑 or 👰. Therefore, this rule is followed. \n- Rule 6: The sequence contains exactly one of each symbol. Therefore this rule is followed. \n- Rule 7: 💒 is the last in the sequence. Therefore this rule is followed. \nThere doesn't seem to be any other arrangement of the symbols that fits all these rules hence the given sequence is the only possible answer."", 'valid': True}"
+"In this puzzle, use the symbols 🐦 (Bird), 🌳 (Tree), 🍃 (Leaf), 🌼 (Flower), 🌞 (Sun), and 🌧️ (Rain). 1. 🐦 cannot be directly before or after 🌧️. 2. 🌳 must always precede 🍃 but follow 🌼. 3. 🌧️ must be immediately after 🍃. 4. The sequence must start with 🌼. 5. 🌞 cannot be adjacent to either 🌼 or 🌳. 6. The sequence contains exactly one of each symbol. 7. 🐦 must be the last in the sequence.","🌼, 🌳, 🍃, 🌧️, 🌞, 🐦","{'analysis': ""Let's analyze this carefully according to the rules: 1. 🐦 is not directly before or after 🌧️. This rule is followed. 2. 🌳 always precedes 🍃 but follows 🌼. The sequence 🌼,🌳,🍃... indicates that this rule is also followed. 3. 🌧️ is immediately after 🍃. The sequence 🍃,🌧️... confirms this rule is followed. 4. The sequence start with 🌼. The sequence begins with 🌼. The rule is followed. 5. 🌞 is adjacent to neither 🌼 nor 🌳. 🌞 appears after 🌧️ and before 🐦. The rule is followed. 6. The sequence does contain exactly one of each symbol. No symbol is repeated. The rule is followed. 7. 🐦 is the last in the sequence, which observes the given rule. Thus, all rules are satisfied and there is no other way to arrange the symbols while following all rules."", 'valid': True}"
+"In this puzzle, use the symbols 🎙️ (Microphone), 🎵 (Musical Note), 🎧 (Headphones), 🎸 (Guitar), 🎹 (Piano), and 🥁 (Drum). 1. 🎙️ cannot be directly before or after 🎧. 2. 🎵 must always precede 🎸 but follow 🎹. 3. 🎧 must be immediately after 🎸. 4. The sequence must start with 🎹. 5. 🥁 cannot be adjacent to either 🎹 or 🎵. 6. The sequence contains exactly one of each symbol. 7. 🎙️ must be the last in the sequence.","🎹, 🎵, 🎸, 🎧, 🥁, 🎙️","{'analysis': 'The sequence 🎹, 🎵, 🎸, 🎧, 🥁, 🎙️ satisfies all the given rules. 1. 🎙️ is not directly before or after 🎧. 2. 🎵 precedes 🎸 and follows 🎹. 3. 🎧 is immediately after 🎸. 4. The sequence starts with 🎹. 5. 🥁 is not adjacent to either 🎹 or 🎵. 6. The sequence contains exactly one of each symbol. 7. 🎙️ is the last in the sequence. There are no other possible sequence that satisfies all the rules, hence the proposed sequence is the only valid answer.', 'valid': True}"
+"In this puzzle, use the symbols ✍️ (Writing Hand), 📝 (Memo), 📚 (Books), 🖊️ (Pen), 📖 (Open Book), and 📕 (Closed Book).
+1. ✍️ cannot be directly before or after 📝.
+2. 📚 must always precede 🖊️ but follow 📖.
+3. 📝 must be immediately after 🖊️.
+4. The sequence must start with 📖.
+5. 📕 cannot be adjacent to either 📖 or 📚.
+6. The sequence contains exactly one of each symbol.
+7. ✍️ must be the last in the sequence.","📖, 📚, 🖊️, 📝, 📕, ✍️","{'analysis': ""Based on the rules, let's analyze the sequence: \n1. The sequence starts with 📖, as required by rule 4. \n2. 📚 follows 📖 (compliant with rule 2) and precedes 🖊️ (compliant with rule 2). \n3. 🖊️ is followed by 📝 which is compliant with rule 3. \n4. 📝 does not have ✍️ before or after it, hence compliant with rule 1. \n5. 📕 is not adjacent to either 📖 or 📚 which complies with rule 5 and ✍️ is the last in the sequence, complying with rule 7. \n6. The sequence contains exactly one of each symbol, complying with rule 6.\nHence the Proposed Answer abides by all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 🤸🏿 (Person Cartwheeling), 🎽 (Running Shirt), 🏅 (Medal), 🏆 (Trophy), 🎖️ (Military Medal), and 🎯 (Direct Hit). 
+1. 🤸🏿 cannot be directly before or after 🏅. 
+2. 🎽 must always precede 🏆 but follow 🎖️. 
+3. 🏅 must be immediately after 🏆. 
+4. The sequence must start with 🎖️. 
+5. 🎯 cannot be adjacent to either 🎖️ or 🎽. 
+6. The sequence contains exactly one of each symbol. 
+7. 🤸🏿 must be the last in the sequence.","🎖️, 🎽, 🏆, 🏅, 🎯, 🤸🏿","{'analysis': ""Analyzing the sequence: 🎖️, 🎽, 🏆, 🏅, 🎯, 🤸🏿. \nRule 1: 🤸🏿 cannot be directly before or after 🏅. This rule is followed as 🤸🏿 is not adjacent to 🏅. \nRule 2: 🎽 must always precede 🏆 but follow 🎖️. This rule is followed as 🎽 precedes 🏆 and follows 🎖️ in the sequence.\nRule 3: 🏅 must be immediately after 🏆. This rule is followed as 🏅 is immediately after 🏆. \nRule 4: The sequence must start with 🎖️. This rule is followed as 🎖️ starts the sequence. \nRule 5: 🎯 cannot be adjacent to either 🎖️ or 🎽. This rule is followed as 🎯 is not adjacent to 🎖️ or 🎽. \nRule 6: The sequence contains exactly one of each symbol. This rule is followed as there is only one of each symbol. \nRule 7: 🤸🏿 must be the last in the sequence. This rule is followed as 🤸🏿 is the last symbol in the sequence.\nAll the rules are correctly applied in the proposed sequence and there doesn't seem to be a different way to arrange the symbols that would also meet all the rules."", 'valid': True}"
+"In this puzzle, use the symbols 😖 (Pouting Face), 😭 (Loudly Crying Face), 😡 (Pouting Face), 😱 (Face Screaming in Fear), 😴 (Sleeping Face), and 😵 (Dizzy Face). 
+1. 😖 cannot be directly before or after 😭. 
+2. 😡 must always precede 😱 but follow 😴. 
+3. 😭 must be immediately after 😱. 
+4. The sequence must start with 😴. 
+5. 😵 cannot be adjacent to either 😴 or 😡. 
+6. The sequence contains exactly one of each symbol. 
+7. 😖 must be the last in the sequence.","😴, 😡, 😱, 😭, 😵, 😖","{'analysis': 'Analyzing the given sequence we can note that: The sequence starts with 😴 (rule 4). 😡 follows 😴 and precedes 😱 (rule 2). 😭 is immediately after 😱 (rule 3). 😵 is not adjacent to 😴 or 😡 (rule 5). 😖 is the last in the sequence (rule 7). And there is exactly one of each symbol (rule 6). Also according to rule 1, 😖 cannot be directly before or after 😭 and in the sequence 😖 is not directly before or after 😭. Therefore, the proposed answer is correct and follows all the rules.', 'valid': True}"
+"In this puzzle, use the symbols 🛁 (Bathtub), 🧼 (Soap), 🚿 (Shower), 🧴 (Lotion), 🧽 (Sponge), and 🛀 (Person Taking Bath). 
+1. 🛁 cannot be directly before or after 🧼. 
+2. 🚿 must always precede 🧴 but follow 🧽. 
+3. 🧼 must be immediately after 🧴. 
+4. The sequence must start with 🧽. 
+5. 🛀 cannot be adjacent to either 🧽 or 🚿. 
+6. The sequence contains exactly one of each symbol. 
+7. 🛁 must be the last in the sequence.","🧽, 🚿, 🧴, 🧼, 🛀, 🛁","{'analysis': 'The proposed answer 🧽, 🚿, 🧴, 🧼, 🛀, 🛁 validates against all rules. The sequence starts with 🧽 (Rule 4). The 🚿 follows 🧽 and precedes 🧴, which is followed by 🧼 (Rules 2 and 3). The 🛀 is not adjacent to 🧽 and 🚿 (Rule 5). All symbols are present and none of them are repeated (Rule 6). The sequence ends with 🛁, and it is not next to 🧼 (Rules 1 and 7). There can be no other valid sequences given these rules. Therefore, the proposed answer is valid.', 'valid': True}"
+"In this puzzle, use the symbols 🌱 (Seedling), 🌿 (Herb), 🌳 (Tree), 🌻 (Sunflower), 🌵 (Cactus), and 🍀 (Four Leaf Clover). 
+1. 🌱 cannot be directly before or after 🌿. 
+2. 🌳 must always precede 🌻 but follow 🌵. 
+3. 🌿 must be immediately after 🌻. 
+4. The sequence must start with 🌵. 
+5. 🍀 cannot be adjacent to either 🌵 or 🌳. 
+6. The sequence contains exactly one of each symbol. 
+7. 🌱 must be the last in the sequence.","🌵, 🌳, 🌻, 🌿, 🍀, 🌱","{'analysis': 'The sequence starts with 🌵 as per the rule 4. And then the sequence maintains 🌳 must always precede 🌻 but follow 🌵 which satisfies rule 2. Rule 3 says 🌿 must be immediately after 🌻, this also correctly followed in the sequence. Rule 1 states 🌱 cannot be directly before or after 🌿, which is perfectly applied in the sequence as 🌱 comes after 🍀 not 🌿. 🍀 cannot be adjacent to either 🌵 or 🌳 is the rule 5 and it is maintained in the sequence as 🍀 is adjacent to 🌿 and 🌱 not 🌵 and 🌳. Rule 6 says the sequence should contain one of each symbol, there is exactly one instance of each symbol in the sequence. Finally, the last rule 7 implies 🌱 must be the last in the sequence is also maintained here as 🌱 is at the end.', 'valid': True}"
+"In this puzzle, use the symbols 👩🏽‍🦽 (Woman in Manual Wheelchair), 🚦 (Traffic Light), 🚧 (Construction), 🚗 (Car), 🚑 (Ambulance), and 🏥 (Hospital). 
+1. 👩🏽‍🦽 cannot be directly before or after 🚧. 
+2. 🚦 must always precede 🚗 but follow 👩🏽‍🦽. 
+3. 🚧 must be immediately after 🚗. 
+4. The sequence must start with 👩🏽‍🦽. 
+5. 🏥 cannot be adjacent to either 👩🏽‍🦽 or 🚦. 
+6. The sequence contains exactly one of each symbol. 
+7. 🚑 must be the last in the sequence.","👩🏽‍🦽, 🚦, 🚗, 🚧, 🏥, 🚑","{'analysis': ""The proposed sequence follows all given rules. The Woman in Manual Wheelchair (👩🏽\u200d🦽) isn't directly before or after Construction (🚧). Traffic Light (🚦) follows Woman in Manual Wheelchair (👩🏽\u200d🦽) and precedes Car (🚗). Construction (🚧) is immediately after Car (🚗). The sequence begins with Woman in Manual Wheelchair (👩🏽\u200d🦽) and Hospital (🏥) isn't adjacent to either Woman in Manual Wheelchair (👩🏽\u200d🦽) or Traffic Light (🚦). The sequence contains one of each symbol and the last symbol is Ambulance (🚑). Thus, given the provided puzzle rules, the proposed sequence is valid, and no alternative sequences are possible that adhere to all of the given rules."", 'valid': True}"
+"In this puzzle, use the symbols 🌪 (Tornado), 🌧️ (Cloud with Rain), 🌈 (Rainbow), 🌤️ (Sun Behind Small Cloud), 🌩️ (Cloud with Lightning), and 🌬️ (Wind Face). 
+1. 🌪 cannot be directly before or after 🌬️. 
+2. 🌧️ must always precede 🌈 but follow 🌤️. 
+3. 🌬️ must be immediately after 🌈. 
+4. The sequence must start with 🌤️. 
+5. 🌩️ cannot be adjacent to either 🌤️ or 🌧️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🌪 must be the last in the sequence.","🌤️, 🌧️, 🌈, 🌬️, 🌩️, 🌪","{'analysis': 'The proposed answer fulfills rule 4 by starting with Sun Behind Small Cloud (🌤️). After that it has Cloud with Rain (🌧️), thus satisfying rule 2 where it mentions that Cloud with Rain (🌧️) must follow Sun Behind Small Cloud (🌤️). Further in the sequence there is Rainbow (🌈), thereby adhering to rule 2 again that Cloud with Rain (🌧️) must always precede Rainbow (🌈). Moving ahead in the sequence, we have Wind Face (🌬️) after Rainbow (🌈), which complies with rule 3 that Wind Face (🌬️) must be immediately after Rainbow (🌈). Next in sequence we have Cloud with Lightning (🌩️) which is not adjacent to Sun Behind Small Cloud (🌤️) or Cloud with Rain (🌧️), following rule 5. At last the sequence ends with Tornado (🌪), which makes the sequence in line with rule 7. The sequence also have one of each symbol complying with rule 6. Furthermore, we see that Tornado (🌪) is not before or after Wind Face (🌬️), following rule 1 about (🌪) cannot be directly before or after (🌬️). Therefore, given the rules, the answer provided is valid.', 'valid': True}"
+"In this puzzle, use the symbols 📧 (Email), 📬 (Mailbox), 📝 (Memo), 📌 (Pushpin), 📚 (Books), and 📦 (Package). 
+1. 📧 cannot be directly before or after 📝. 
+2. 📬 must always precede 📌 but follow 📦. 
+3. 📝 must be immediately after 📌. 
+4. The sequence must start with 📦. 
+5. 📚 cannot be adjacent to either 📦 or 📬. 
+6. The sequence contains exactly one of each symbol. 
+7. 📧 must be the last in the sequence.","📦, 📬, 📌, 📝, 📚, 📧","{'analysis': 'The proposed sequence is 📦, 📬, 📌, 📝, 📚, 📧. It starts with 📦 and ends with 📧, complying with rules 4 and 7. By inspecting, we find that none of the 📧 is directly before or after 📝, and 📬 precedes 📌 and follows 📦, which validates rules 1 and 2. In addition, 📝 is immediately after 📌, as required by rule 3. 📚 is not adjacent to either 📦 or 📬, fitting rule 5. Finally, the sequence contains exactly one of each symbol, so it meets rule 6.', 'valid': True}"
+"In this puzzle, use the symbols 🎓 (Graduation Cap), 📚 (Books), 🧑‍🎓 (Student), 🏫 (School), 📝 (Writing Hand), and 🎒 (Backpack).
+1. 🎓 cannot be directly before or after 📚.
+2. 🏫 must always precede 🧑‍🎓 but follow 📝.
+3. 📚 must be immediately after 🧑‍🎓.
+4. The sequence must start with 📝.
+5. 🎒 cannot be adjacent to either 📝 or 🏫.
+6. The sequence contains exactly one of each symbol.
+7. 🎓 must be the last in the sequence.","📝, 🏫, 🧑‍🎓, 📚, 🎒, 🎓","{'analysis': 'The proposed answer follows the rules as described: \n1. Rule number 1 is followed, 🎓 is not directly before or after 📚. 🎒 is between them. \n 2. Rule number 2 is also followed, 🏫 preceeds 🧑\u200d🎓 and it follows 📝. \n3. 📚 is immediately after 🧑\u200d🎓, as the third rule specifies.\n4. 📝 is indeed the start of the sequence which the fourth rule requires.\n5. As the fifth rule requires 🎒 is not adjacent to either 📝 or 🏫, in fact it is between 📚 and 🎓. \n 6. As per the sixth rule, each symbol appears exactly once. \n 7. The last rule, 🎓 must be last in the sequence, is also followed. \n Therefore, it seems that all the rules are followed by the proposed sequence. And since there is no other possible sequence that could follow the rules in same way, the proposed sequence seems to be the only valid answer ', 'valid': True}"
+"In this puzzle, use the symbols 🧮 (Abacus), 📐 (Triangle Ruler), 📏 (Straight Ruler), ✏️ (Pencil), 📚 (Books), and 🎓 (Graduation Cap).
+1. 🧮 cannot be directly before or after 📐.
+2. 📏 must always precede ✏️ but follow 📚.
+3. 📐 must be immediately after ✏️.
+4. The sequence must start with 📚.
+5. 🎓 cannot be adjacent to either 📚 or 📏.
+6. The sequence contains exactly one of each symbol.
+7. 🧮 must be the last in the sequence.","📚, 📏, ✏️, 📐, 🎓, 🧮","{'analysis': '1. There is no 🧮 directly before or after 📐. 2. 📏 precedes ✏️ and follows 📚. 3. 📐 is immediately after ✏️. 4. The sequence starts with 📚. 5. 🎓 is not adjacent to either 📚 or 📏. 6. The sequence contains exactly one of each symbol. 7. 🧮 is the last in the sequence. Therefore, the proposed sequence adheres to all the rules of the puzzle.', 'valid': True}"
+"In this puzzle, use the symbols 🏂 (Snowboarder), 🏔️ (Mountain), ❄️ (Snowflake), 🚡 (Cable Car), 🌲 (Tree), and 🌞 (Sun). 
+1. 🏂 cannot be directly before or after 🚡. 
+2. 🏔️ must always precede ❄️ but follow 🌲. 
+3. 🚡 must be immediately after ❄️. 
+4. The sequence must start with 🌲. 
+5. 🌞 cannot be adjacent to either 🌲 or 🏔️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🏂 must be the last in the sequence.","🌲, 🏔️, ❄️, 🚡, 🌞, 🏂","{'analysis': ""The proposed sequence is 🌲, 🏔️, ❄️, 🚡, 🌞, 🏂. Let's follow the rules:\n1. 🏂 is at the end, it is not before or after 🚡 so the first rule is respected.\n2. 🏔️ indeed precedes ❄️ and follows 🌲. The second rule is respected.\n3. 🚡 is immediately after ❄️. The third rule is respected.\n4. The sequence starts with 🌲. The fourth rule is respected.\n5. 🌞 is not adjacent to either 🌲 or 🏔️, but is adjacent to 🚡 and 🏂. The fifth rule is respected.\n6. Each symbol appears only once in the sequence. The sixth rule is respected.\n7. 🏂 is the last in the sequence. The seventh rule is respected.\nThus each rule is respected in the given sequence. And since the rules are so specific, especially the adjacency rules, it is highly unlikely that any other sequence would meet all the rules. Therefore, this is the most likely valid sequence."", 'valid': True}"
+"In this puzzle, use the symbols 👩🏻‍⚕️ (Woman Health Worker), 💊 (Pill), 🌡️ (Thermometer), 🦠 (Microbe), 🧪 (Test Tube), and 🧬 (DNA). 
+1. 👩🏻‍⚕️ cannot be directly before or after 🦠. 
+2. 💊 must always precede 🌡️ but follow 🧪. 
+3. 🦠 must be immediately after 🌡️. 
+4. The sequence must start with 🧪. 
+5. 🧬 cannot be adjacent to either 🧪 or 💊. 
+6. The sequence contains exactly one of each symbol. 
+7. 👩🏻‍⚕️ must be the last in the sequence.","🧪, 💊, 🌡️, 🦠, 🧬, 👩🏻‍⚕️","{'analysis': 'The symbols in the proposed sequence are arranged as follows: 🧪, 💊, 🌡️, 🦠, 🧬, 👩🏻\u200d⚕️. The sequence satisfies all the rules: 1. 👩🏻\u200d⚕️ is not directly before or after 🦠. 2. 💊 does precede 🌡️ and follow 🧪. 3. 🦠 is immediately after 🌡️. 4. The sequence does start with 🧪. 5. 🧬 is not adjacent to either 🧪 or 💊. 6. The sequence contains exactly one of each symbol. 7. 👩🏻\u200d⚕️ is the last in the sequence.  Therefore, given the rules, the proposed answer is valid and no other valid sequence is possible.', 'valid': True}"
+"In this puzzle, use the symbols 🪽 (Plunger), 🚽 (Toilet), 🧻 (Toilet Paper), 🧼 (Soap), 🛁 (Bathtub), and 🚿 (Shower). 
+1. 🪽 cannot be directly before or after 🚿. 
+2. 🚽 must always precede 🧻 but follow 🛁. 
+3. 🧼 must be immediately after 🧻. 
+4. The sequence must start with 🛁. 
+5. 🚿 cannot be adjacent to either 🛁 or 🚽. 
+6. The sequence contains exactly one of each symbol. 
+7. 🪽 must be the last in the sequence.","🛁, 🚽, 🧻, 🧼, 🚿, 🪽","{'analysis': 'The proposed sequence satisfies all the rules: the sequence starts with 🛁 (rule 4). 🚽 follows 🛁 (rule 2). 🧻 follows 🚽 (rule 2). 🧼 is immediately after 🧻 (rule 3). 🚿 is not adjacent to either 🛁 or 🚽 (rule 5). 🪽 is the last in the sequence (rule 7). 🪽 is not directly before or after 🚿 (rule 1). The sequence contains exactly one of each symbol (rule 6).', 'valid': True}"
+"In this puzzle, use the symbols 🏊🏿‍♂️ (Swimmer), 🏖️ (Beach), 🌊 (Wave), 🌞 (Sun), 🕶️ (Sunglasses), and 🍹 (Tropical Drink). 
+1. 🏊🏿‍♂️ cannot be directly before or after 🌊. 
+2. 🏖️ must always precede 🌊 but follow 🌞. 
+3. 🕶️ must be immediately after 🌊. 
+4. The sequence must start with 🌞. 
+5. 🍹 cannot be adjacent to either 🌞 or 🏖️. 
+6. The sequence contains exactly one of each symbol. 
+7. 🏊🏿‍♂️ must be the last in the sequence.","🌞, 🏖️, 🌊, 🕶️, 🍹, 🏊🏿‍♂️","{'analysis': ""Looking each rule: 1. In the proposed sequence swimmer is not before or after wave. 2. Beach indeed comes after sun and before wave. 3. Sunglasses is immediately after wave. 4. The sequence starts with sun. 5. Tropical drink is not adjacent to either sun or beach. 6. There is exactly one of each symbol in the proposed sequence. 7. Swimmer is the last in the sequence. After analyzing the proposed sequence against each rule, it's clear that the sequence perfectly complies with each rule."", 'valid': True}"
+"In this puzzle, use the symbols 👩🏽‍🦰 (Woman: Medium Skin Tone, Red Hair), 👒 (Woman’s Hat), 💄 (Lipstick), 👠 (High-Heeled Shoe), 👗 (Dress), and 💼 (Briefcase). 
+1. 👩🏽‍🦰 cannot be directly before or after 👠. 
+2. 👒 must always precede 💄 but follow 👗. 
+3. 👠 must be immediately after 💄. 
+4. The sequence must start with 👗. 
+5. 💼 cannot be adjacent to either 👗 or 👒. 
+6. The sequence contains exactly one of each symbol. 
+7. 👩🏽‍🦰 must be the last in the sequence.","👗, 👒, 💄, 👠, 💼, 👩🏽‍🦰","{'analysis': ""Let's check each rule with the given sequence: 1. 👩🏽\u200d🦰 is not directly before or after 👠 in the sequence - Confirmed 2. 👒 precedes 💄 and follows 👗 in the sequence - Confirmed 3. 👠 is immediately after 💄 - Confirmed 4. The sequence starts with 👗 - Confirmed 5. 💼 is not adjacent to either 👗 or 👒 - Confirmed 6. The sequence contains exactly one of each symbol - Confirmed 7. 👩🏽\u200d🦰 is the last in the sequence - Confirmed Since the sequence abides by all the given rules, it is a valid sequence."", 'valid': True}"
+"In this puzzle, use the symbols 🤽 (Person Playing Water Polo), 🌊 (Water Wave), 🏊 (Person Swimming), 🏄 (Person Surfing), 🚣 (Person Rowing Boat), and 🛥️ (Motor Boat). 
+1. 🤽 cannot be directly before or after 🛥️. 
+2. 🌊 must always precede 🏊 but follow 🚣. 
+3. 🏄 must be immediately after 🏊. 
+4. The sequence must start with 🚣. 
+5. 🛥️ cannot be adjacent to either 🚣 or 🌊. 
+6. The sequence contains exactly one of each symbol. 
+7. 🤽 must be the last in the sequence.","🚣, 🌊, 🏊, 🏄, 🛥️, 🤽","{'analysis': ""The proposed sequence starts with 🚣 which is in accordance with rule 4. 🌊 follows 🚣 and further precedes 🏊, which is in accordance with rule 2. 🏄 is immediately after 🏊 which accords with rule 3. The 🛥️ symbol isn't adjacent to 🚣 and 🌊 and hence is in line with rule 5. And it isn't adjacent to 🤽 as well, meeting rule 1. The sequence does contain exactly one of each symbol fulfilling the rule 6. In the end, 🤽 concludes the sequence, following rule 7. Hence, all the rules in the construction of the sequence are followed."", 'valid': True}"
+"In this puzzle, use the symbols 🍞 (Bread), 🥖 (Baguette), 🥨 (Pretzel), 🥐 (Croissant), 🍔 (Burger), and 🍕 (Pizza). 
+1. 🍞 cannot be directly before or after 🥖. 
+2. 🥨 must always precede 🥐 but follow 🍔. 
+3. 🥖 must be immediately after 🥐. 
+4. The sequence must start with 🍔. 
+5. 🍕 cannot be adjacent to either 🍔 or 🥨. 
+6. The sequence contains exactly one of each symbol. 
+7. 🍞 must be the last in the sequence.","🍔, 🥨, 🥐, 🥖, 🍕, 🍞","{'analysis': ""First, let's analyze the sequence based on the rules: \n1. 🍞 is not directly before or after 🥖. It's after 🍕, which is in turn after 🥖. \n2. 🥨 precedes 🥐 and follows 🍔. \n3. 🥖 is immediately after 🥐. \n4. The sequence starts with 🍔. \n5. 🍕 is not adjacent to either 🍔 or 🥨. It's after 🥖, which is after 🥐 that in turn follows 🥨. \n6. The sequence contains exactly one of each symbol. \n7. 🍞 is the last in the sequence.\nAs all the rules are complied, it's a valid sequence.\nIn regards of being a singular solution, if we dissect it rule by rule it results that: \n- Rule 4 dictates the start with 🍔. \n- Rule 2 renders a partial sequence of 🍔, 🥨, 🥐 - because 🥨 follows 🍔 and precedes 🥐.\n- Rule 3 forces the insertion of a 🥖 after the above sequence - thus: 🍔, 🥨, 🥐, 🥖\n- Rule 5 banishes 🍕 from the 2nd and 3rd position from the beginning and the end - thus it can only occupy the fifth position as on fourth position is 🥖 \n- Rule 1 banishes 🍞 from the 2nd and 6th position, thus the only viable position for it is at the end, as established by Rule 7\nAs such, in virtue of the 6th rule too( that states that every emoji appears only once in the sequence), this proposed answer is the single solution."", 'valid': True}"
+"In this puzzle, use the symbols 💪🏻 (Flexed Biceps), 🏋️‍♀️ (Woman Lifting Weights), 🏃‍♂️ (Man Running), 🍎 (Apple), 🥦 (Broccoli), and 🛌 (Bed).
+1. 💪🏻 cannot be directly before or after 🏋️‍♀️.
+2. 🏃‍♂️ must always precede 🍎 but follow 🥦.
+3. 🏋️‍♀️ must be immediately after 🍎.
+4. The sequence must start with 🥦.
+5. 🛌 cannot be adjacent to either 🥦 or 🏃‍♂️.
+6. The sequence contains exactly one of each symbol.
+7. 💪🏻 must be the last in the sequence.","🥦, 🏃‍♂️, 🍎, 🏋️‍♀️, 🛌, 💪🏻","{'analysis': ""Let's analyze each rule and the proposed answer: \n1. 💪🏻 is not directly before or after 🏋️\u200d♀️ in the proposed answer. \n2. 🏃\u200d♂️ precedes 🍎 and follows 🥦 in the proposed sequence, which is correct. \n3. 🏋️\u200d♀️ is immediately after 🍎 in the proposed answer. \n4. The sequence in the proposed answer begins with 🥦.\n5. 🛌 is not adjacent to either 🥦 or 🏃\u200d♂️ in the proposed answer. \n6. The sequence contains exactly one of each symbol. \n7. 💪🏻 is the last in the sequence. The proposed answer seems to comply with all the rules."", 'valid': True}"
