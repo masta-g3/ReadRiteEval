@@ -1,8 +1,11 @@
-# CorLingua Eval
-A collection of evaluation datasets related to text understanding.
+# ReadRiteEval
+
+***A collection of evaluation datasets related to text understanding.***
+ 
+![ReadRiteEval](logo.png)
 
 ```
-corlingua_eval
+ReadRiteEval
 |--🗺️ spatial_reasoning.csv
 |--😶‍🌫️ contextual_dissonance.csv
 |--🧩 sequence_logic_puzzle.csv
